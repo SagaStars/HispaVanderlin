@@ -275,7 +275,29 @@
 
 //Returns a string with the first element of the string capitalized.
 /proc/capitalize(t as text)
-	return uppertext(copytext(t, 1, 2)) + copytext(t, 2)
+	if(!t || !length(t))
+		return t
+
+	var/list/bloqueadas = list(
+		"á","é","í","ó","ú",
+		"Á","É","Í","Ó","Ú",
+		"ñ","Ñ",
+		"¡","¿"
+	)
+
+	var/i
+	for(i = 1, i <= length(t), i++)
+		var/c = copytext(t, i, i+1)
+
+		// Si está en la lista de caracteres que NO queremos tocar
+		if(c in bloqueadas)
+			continue
+
+		// Detecta letras normales (A-Z / a-z)
+		if(uppertext(c) != lowertext(c))
+			return copytext(t, 1, i) + uppertext(c) + copytext(t, i+1)
+
+	return t
 
 //Centers text by adding spaces to either side of the string.
 /proc/dd_centertext(message, length)
