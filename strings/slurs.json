@@ -41,13 +41,13 @@
 			"zizospawn"
 		],
 		"Half-Elf": [
-			"mutt",
+			"chucho",
 			"mongrel",
-			"half breed",
+			"mestizo",
 			"halfie"
 		],
 		"Half-Drow": [
-			"mutt",
+			"chucho",
 			"mongrel",
 			"half breed",
 			"halfie",
@@ -69,7 +69,9 @@
 			"stone shitter",
 			"tunnel rat",
 			"keg belly",
-			"gold licker"
+			"gold licker",
+			"gordin",
+			"redondin"
 		],
 		"Aasimar": [
 			"god's pet",
@@ -93,8 +95,10 @@
 			"tusker",
 			"scumbreed",
 			"graggarspawn",
-			"pig man",
-			"pig woman"
+			"puerco",
+			"cerdo",
+			"puerca",
+			"cerda"
 		],
 		"Tiefling": [
 			"hellspawn",
@@ -150,14 +154,17 @@
 			"whore pigeon"
 		],
 		"Generic": [
-			"whore",
-			"slut",
-			"hedon",
-			"harlot",
-			"zizite",
+			"zorra",
+			"puta",
+			"puto",
+			"palurdo",
+			"palurda",
+			"escoria",
 			"zizoid",
-			"zybantine",
-			"salad"
+			"zizoide",
+			"zizonita",
+			"zybantino",
+			"salado"
 		]
 	}
 }
