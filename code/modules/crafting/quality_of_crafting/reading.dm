@@ -27,6 +27,7 @@
 		/obj/item/paper/scroll = 3,
 	)
 	starting_atom = /obj/item/paper/scroll
+	attacked_atom = /obj/item/paper/scroll
 
 	craftdiff = 2
 	output = /obj/item/textbook
