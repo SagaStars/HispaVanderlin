@@ -27,7 +27,7 @@
 		/datum/skill/craft/sewing = 4,
 		/datum/skill/misc/medicine = 2,
 		/datum/skill/misc/lockpicking = 2,
-		/datum/skill/combat/firearms = 4,
+		/datum/skill/combat/firearms = 5, // No more conjuring but hey you're more accurate now!
 		/datum/skill/combat/knives = 3,
 		/datum/skill/magic/holy = 1
 	)
@@ -37,10 +37,6 @@
 		TRAIT_INHUMENCAMP,
 		TRAIT_STEELHEARTED,
 		TRAIT_DODGEEXPERT
-	)
-
-	spells = list(
-		/datum/action/cooldown/spell/undirected/conjure_item/puffer
 	)
 
 /datum/job/advclass/wretch/vigilante/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -69,10 +65,13 @@
 	gloves = /obj/item/clothing/gloves/leather/advanced
 	shoes = /obj/item/clothing/shoes/nobleboot
 	wrists = /obj/item/clothing/wrists/bracers/leather/advanced
+	beltl = /obj/item/gun/ballistic/revolver/grenadelauncher/pistol
+	beltr = /obj/item/ammo_holder/bullet/bullets
 	backpack_contents = list(
 		/obj/item/weapon/knife/hunting = 1,
 		/obj/item/storage/belt/pouch/coins/poor = 1,
 		/obj/item/storage/fancy/cigarettes/zig = 1,
+		/obj/item/reagent_containers/glass/bottle/aflask = 1,
 		/obj/item/flint = 1,
 		/obj/item/reagent_containers/glass/bottle/stronghealthpot = 1,
 	)
