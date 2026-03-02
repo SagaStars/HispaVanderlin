@@ -15,7 +15,7 @@
 	base_antags = 0
 	maximum_antags = 0
 
-	min_players = 75
+	min_players = LOWPOP_THRESHOLD
 	weight = 12
 
 	earliest_start = 999999 SECONDS //Testhastapq
@@ -27,8 +27,17 @@
 		/datum/job/lord,
 		/datum/job/consort,
 		/datum/job/priest,
-		/datum/job/gmtemplar,
+		/datum/job/hand,
+		/datum/job/captain,
+		/datum/job/prince,
+		/datum/job/inquisitor,
+		/datum/job/absolver,
+		/datum/job/orthodoxist,
+		/datum/job/adept,
+		/datum/job/forestwarden,
+		/datum/job/royalknight,
 		/datum/job/templar,
+		/datum/job/gmtemplar,
 		/datum/job/advclass/combat/assassin,
 	)
 
