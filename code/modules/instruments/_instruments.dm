@@ -337,6 +337,7 @@
 	"Danza De Las Lanzas" = 'sound/instruments/guitar (18).ogg',
 	"The Feline, Forever Returning" = 'sound/instruments/guitar (19).ogg',
 	"El Beso Carmesí" = 'sound/instruments/guitar (20).ogg',
+	"I Really Want To Stay At Your House" = 'sound/instruments/guitar (21).ogg'
 	)
 
 /obj/item/instrument/harp
