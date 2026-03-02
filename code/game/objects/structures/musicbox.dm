@@ -35,7 +35,8 @@
 	"Stagebox" = 'sound/music/jukeboxes/scum/stagebox.remix.ogg',\
 	"Camel Without Filter" = 'sound/music/jukeboxes/scum/pedro_-_camel_without_filter.ogg',\
 	"Roll Up (Dupe Edit)" = 'sound/music/jukeboxes/scum/roll_up_dupe_edit.ogg',\
-	"Cyberride" = 'sound/music/jukeboxes/scum/cyberrid.ogg'\
+	"Cyberride" = 'sound/music/jukeboxes/scum/cyberrid.ogg',\
+	"First Contact" = 'sound/music/jukeboxes/scum/firstcontact.ogg'\
 )
 #define MUSIC_TAVCAT_DAMN list(\
 	"Basshead" = 'sound/music/jukeboxes/damn/pedro_-_basshead.ogg',\
