@@ -9,7 +9,7 @@ GLOBAL_VAR_INIT(adventurer_hugbox_duration_still, 3 MINUTES)
 	Someday your pride is going to catch up to you, \
 	and you're going to find out why most men don't end up in the annals of history."
 	department_flag = OUTSIDERS
-	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_NEW_PLAYER_JOINABLE | JOB_EQUIP_RANK)
+	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_NEW_PLAYER_JOINABLE | JOB_EQUIP_RANK | JOB_SHOW_IN_CREDITS)
 	display_order = JDO_ADVENTURER
 	faction = FACTION_FOREIGNERS
 	total_positions = 14
@@ -21,12 +21,13 @@ GLOBAL_VAR_INIT(adventurer_hugbox_duration_still, 3 MINUTES)
 
 	outfit = null
 	outfit_female = null
-	job_reopens_slots_on_death = TRUE
+	job_reopens_slots_on_death = FALSE
 	same_job_respawn_delay = 15 MINUTES
 	advclass_cat_rolls = list(CTAG_ADVENTURER = 15)
 	is_foreigner = TRUE
 	can_have_apprentices = FALSE
 	scales = TRUE
+	can_be_apprentice = TRUE
 
 	exp_types_granted = list(EXP_TYPE_ADVENTURER, EXP_TYPE_COMBAT)
 
