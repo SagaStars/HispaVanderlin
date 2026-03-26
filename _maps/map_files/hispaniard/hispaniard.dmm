@@ -11345,7 +11345,7 @@
 "fKP" = (
 /obj/effect/mapping_helpers/access/keyset/manor/guest,
 /obj/structure/door/fancy{
-	name = "Upper Baths"
+	name = "Baths"
 	},
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town/keep)
