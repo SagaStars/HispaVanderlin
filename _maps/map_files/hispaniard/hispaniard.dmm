@@ -1345,9 +1345,7 @@
 	pixel_x = 6
 	},
 /turf/open/floor/twig,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "aOl" = (
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/decal/carpet/kover_black,
@@ -3202,9 +3200,7 @@
 /area/indoors/town/tavern)
 "bJR" = (
 /turf/closed/mineral,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "bJZ" = (
 /obj/structure/rack,
 /obj/item/harpoon_gun{
@@ -3790,9 +3786,7 @@
 "bVM" = (
 /obj/structure/chair/stool/crafted,
 /turf/open/floor/ruinedwood/spiral,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "bWa" = (
 /obj/structure/table/wood/reinf_long{
 	dir = 8
@@ -3946,9 +3940,7 @@
 	ring_range = 52
 	},
 /turf/open/floor/wood,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "bZC" = (
 /obj/structure/door/stone,
 /obj/effect/mapping_helpers/access/keyset/church/general,
@@ -4008,9 +4000,7 @@
 /obj/structure/rack/shelf/biggest,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood/spiral,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "cao" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8
@@ -4264,9 +4254,7 @@
 	dir = 1
 	},
 /turf/open/floor/twig,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "cij" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/openspace,
@@ -7999,9 +7987,7 @@
 "eaU" = (
 /obj/structure/flora/newtree/snow,
 /turf/open/floor/snow,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "eaV" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/herringbone,
@@ -9065,9 +9051,7 @@
 /area/indoors/town/keep/gate)
 "eDD" = (
 /turf/open/floor/snow,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "eDJ" = (
 /turf/open/floor/wood,
 /area/indoors/town)
@@ -10034,9 +10018,7 @@
 "feZ" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/hexstone,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "ffz" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
@@ -11243,9 +11225,7 @@
 	pixel_y = -1
 	},
 /turf/open/floor/wood,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "fIt" = (
 /obj/structure/train/carriage/not_train,
 /turf/open/floor/grass/cold,
@@ -11344,7 +11324,9 @@
 /area/under/mountains/anvil/dungeon)
 "fKP" = (
 /obj/effect/mapping_helpers/access/keyset/manor/guest,
-/obj/structure/door/fancy,
+/obj/structure/door/fancy{
+	name = "Baths"
+	},
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town/keep)
 "fLg" = (
@@ -11790,9 +11772,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/hexstone,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "fXi" = (
 /obj/structure/window/openclose,
 /obj/structure/bars/alt{
@@ -12710,9 +12690,7 @@
 "gxq" = (
 /obj/structure/window/openclose/reinforced,
 /turf/open/floor/wood/nosmooth,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "gxx" = (
 /turf/closed/wall/mineral/stone/moss/red,
 /area/indoors/town)
@@ -12943,9 +12921,7 @@
 /area/indoors/town)
 "gDi" = (
 /turf/open/floor/naturalstone,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "gDl" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/cobble,
@@ -12993,15 +12969,11 @@
 	dir = 4
 	},
 /turf/open/floor/twig,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "gGz" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/hexstone,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "gGG" = (
 /obj/machinery/light/fueled/wallfire{
 	pixel_y = 32
@@ -14495,9 +14467,7 @@
 /area/indoors/town/tavern)
 "hsy" = (
 /turf/open/floor/ruinedwood/spiral,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "hsS" = (
 /obj/structure/fluff/railing/border{
 	dir = 10
@@ -15857,9 +15827,7 @@
 "ifg" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/wood,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "ifo" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -17997,9 +17965,7 @@
 "jnf" = (
 /obj/structure/fermentation_keg/random/beer,
 /turf/open/floor/twig,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "jng" = (
 /obj/structure/minecart_rail{
 	dir = 5
@@ -19344,9 +19310,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood/spiral,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "jXs" = (
 /obj/structure/chair/wood/alt{
 	dir = 4
@@ -21304,9 +21268,7 @@
 /area/indoors/town/smithy)
 "kZe" = (
 /turf/open/floor/twig,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "kZl" = (
 /obj/structure/flora/grass/bush/wall/tall/tundra,
 /turf/open/floor/dirt,
@@ -24296,9 +24258,7 @@
 	dir = 1
 	},
 /turf/open/floor/twig,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "myH" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 1
@@ -28061,9 +28021,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/twig,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "osF" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
@@ -33268,9 +33226,7 @@
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/mapping_helpers/access/keyset/garrison/forest,
 /turf/open/floor/wood/nosmooth,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "rgr" = (
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /obj/structure/bookcase/random/legends,
@@ -34193,9 +34149,7 @@
 	},
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/hexstone,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "rCL" = (
 /obj/machinery/light/fueled/torchholder{
 	pixel_y = 28
@@ -34343,9 +34297,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood/nosmooth,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "rHQ" = (
 /obj/structure/flora/grass/bush_meagre/tundra,
 /obj/structure/fluff/railing/wood{
@@ -35031,9 +34983,7 @@
 /area/indoors/town/tavern)
 "saA" = (
 /turf/open/floor/wood,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "saH" = (
 /obj/structure/door/window{
 	name = "Storage Closet"
@@ -35485,9 +35435,7 @@
 	pixel_y = 37
 	},
 /turf/open/floor/hexstone,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "smL" = (
 /obj/structure/chair/wood/alt,
 /turf/open/floor/blocks,
@@ -36112,9 +36060,7 @@
 	dir = 1
 	},
 /turf/open/floor/cobblerock/snow,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "sGS" = (
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/herringbone,
@@ -36663,9 +36609,7 @@
 	dir = 10
 	},
 /turf/open/floor/ruinedwood/spiral,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "sZN" = (
 /turf/closed/wall/mineral/craftstone,
 /area/indoors/town/smithy)
@@ -36697,9 +36641,7 @@
 	pixel_x = 5
 	},
 /turf/open/floor/twig,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "tav" = (
 /obj/item/weapon/sword/sabre/dec,
 /turf/open/floor/volcanic,
@@ -37368,9 +37310,7 @@
 	pixel_y = -1
 	},
 /turf/open/floor/wood,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "tsB" = (
 /turf/closed/wall/mineral/roofwall/outercorner,
 /area/under/cave)
@@ -37900,9 +37840,7 @@
 	name = "Forest Garrison Tower"
 	},
 /turf/open/floor/wood/nosmooth,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "tEE" = (
 /obj/item/weapon/sword/long,
 /turf/open/floor/cobblerock,
@@ -38710,9 +38648,7 @@
 	},
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/hexstone,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "tZV" = (
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/blocks/newstone/alt,
@@ -40150,9 +40086,7 @@
 	pixel_x = -8
 	},
 /turf/open/floor/wood,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "uLh" = (
 /obj/structure/fluff/walldeco/painting/seraphina,
 /turf/closed/wall/mineral/decorstone,
@@ -40766,9 +40700,7 @@
 /area/outdoors/town/noble_manor/red)
 "uZW" = (
 /turf/open/floor/cobblerock/snow,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "uZX" = (
 /turf/open/floor/tile/masonic,
 /area/indoors/town/keep/lord_appt)
@@ -43386,9 +43318,7 @@
 /area/indoors/town/keep/heir/heir1)
 "wtt" = (
 /turf/closed/wall/mineral/decowood,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "wty" = (
 /obj/structure/stairs/stone{
 	dir = 8
@@ -46398,9 +46328,7 @@
 "xVD" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/twig,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "xVN" = (
 /obj/structure/closet/crate/crafted_closet/crafted,
 /obj/item/broom,
@@ -47057,9 +46985,7 @@
 "ylM" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/twig,
-/area/outdoors/wilderness/outpost/salem{
-	first_time_text = "White Tower Outpost"
-	})
+/area/outdoors/wilderness/outpost/hispaniard)
 "ylU" = (
 /obj/item/reagent_containers/glass/cup{
 	pixel_x = 8;

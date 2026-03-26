@@ -45,6 +45,10 @@
 	name = "salem outpost"
 	first_time_text = "Salem Outpost"
 
+/area/outdoors/wilderness/outpost/hispaniard // HISPANIA
+	name = "white tower outpost"
+	first_time_text = "White Tower Outpost"
+
 /area/indoors/wilderness
 	name = "indoors - wilderness"
 	icon_state = "indoorwild"
