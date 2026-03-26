@@ -11343,10 +11343,10 @@
 /turf/open/floor/cobblerock,
 /area/under/mountains/anvil/dungeon)
 "fKP" = (
+/obj/effect/mapping_helpers/access/keyset/manor/guest,
 /obj/structure/door/fancy{
 	name = "Upper Baths"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/guest,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town/keep)
 "fLg" = (
