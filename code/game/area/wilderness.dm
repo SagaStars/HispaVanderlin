@@ -11,7 +11,8 @@
 	soundenv = 15
 	ambush_times = list("night","dawn","dusk","day")
 	ambush_types = list(
-				/turf/open/floor/grass)
+				/turf/open/floor/grass,
+				/turf/open/floor/snow) // HISPANIA NEEEDED
 
 	ambush_mobs = list(
 		new /datum/ambush_config/wolf_pack = 15,

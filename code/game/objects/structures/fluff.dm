@@ -238,6 +238,11 @@
 	max_integrity = 2000
 	redstone_structure = TRUE
 
+/obj/structure/bars/passage/open // HISPANIA
+	icon_state = "passage1"
+	density = FALSE
+	opacity = FALSE
+
 /obj/structure/bars/passage/redstone_triggered(mob/user)
 	if(obj_broken)
 		return

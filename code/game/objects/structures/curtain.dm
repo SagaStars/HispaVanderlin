@@ -67,3 +67,8 @@
 /obj/structure/curtain/bounty/dir
 	icon_state = MAP_SWITCH("bounty-open", "bountydir")
 	directional = TRUE
+
+/obj/structure/curtain/bounty/dir/closed
+	icon_state = MAP_SWITCH("bounty-closed", "bountydir")
+	opacity = TRUE
+	open = FALSE

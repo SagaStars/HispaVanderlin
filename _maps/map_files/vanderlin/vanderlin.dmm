@@ -21897,6 +21897,14 @@
 	dir = 1
 	},
 /area/outdoors/beach/boat)
+"koK" = (
+/obj/effect/mapping_helpers/access/keyset/church/general,
+/obj/structure/door/weak/bolt{
+	dir = 1;
+	name = "Confessionary"
+	},
+/turf/open/floor/herringbone,
+/area/indoors/town/church)
 "koQ" = (
 /obj/item/reagent_containers/food/snacks/smallrat,
 /turf/open/floor/blocks,
@@ -40804,7 +40812,9 @@
 	},
 /area/outdoors/river)
 "sNH" = (
-/obj/structure/door/stone,
+/obj/structure/door/stone{
+	name = "Confessionary"
+	},
 /obj/effect/mapping_helpers/access/keyset/church/general,
 /turf/open/floor/church,
 /area/indoors/town/church/chapel)
@@ -171257,7 +171267,7 @@ qFx
 qFx
 hTX
 lGt
-hzA
+koK
 bBf
 gny
 wje
