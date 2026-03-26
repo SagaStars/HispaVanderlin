@@ -11344,9 +11344,7 @@
 /area/under/mountains/anvil/dungeon)
 "fKP" = (
 /obj/effect/mapping_helpers/access/keyset/manor/guest,
-/obj/structure/door/fancy{
-	name = "Baths"
-	},
+/obj/structure/door/fancy,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town/keep)
 "fLg" = (
