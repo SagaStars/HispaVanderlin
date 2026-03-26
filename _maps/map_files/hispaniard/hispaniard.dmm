@@ -8019,23 +8019,18 @@
 /area/indoors/soilsons)
 "ebE" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
-/obj/effect/spawner/guaranteed_map_spawner/listed/steward_keys,
-/obj/item/key/custom{
-	pixel_x = 3;
-	pixel_y = 1
-	},
-/obj/item/key/custom{
-	pixel_x = -8;
-	pixel_y = 2;
-	pixel_z = null
-	},
-/obj/item/key/custom{
-	pixel_x = -3;
-	pixel_y = -2
-	},
-/obj/structure/closet/keyrack,
-/obj/effect/mapping_helpers/access/keyset/manor/steward,
 /obj/effect/mapping_helpers/access/locker,
+/obj/structure/table/wood/reinf_long{
+	dir = 8
+	},
+/obj/effect/decal/carpet/square/black{
+	pixel_x = 16;
+	pixel_y = -4
+	},
+/obj/item/candle/yellow/lit/infinite{
+	pixel_x = 4;
+	pixel_y = 5
+	},
 /turf/open/floor/cobble,
 /area/indoors/town/steward)
 "ebO" = (
@@ -12482,7 +12477,7 @@
 /obj/structure/chair/stool{
 	pixel_y = 6
 	},
-/turf/open/floor/ruinedwood/spiral,
+/turf/open/floor/carpet,
 /area/indoors/town/tavern)
 "gre" = (
 /turf/closed/wall/mineral/craftstone,
@@ -14003,7 +13998,7 @@
 /obj/item/paper,
 /obj/item/paper,
 /obj/item/natural/feather,
-/turf/open/floor/cobblerock,
+/turf/open/floor/cobble,
 /area/indoors/town/steward)
 "hew" = (
 /obj/item/reagent_containers/food/snacks/egg,
@@ -17470,7 +17465,7 @@
 	pixel_y = 0;
 	pixel_x = -32
 	},
-/turf/open/floor/ruinedwood/spiral,
+/turf/open/floor/carpet,
 /area/indoors/town/tavern)
 "iXC" = (
 /obj/structure/table/wood{
@@ -19144,6 +19139,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/blocks,
 /area/outdoors/town/roofs)
+"jRT" = (
+/obj/effect/decal/cobbleedge,
+/obj/structure/fluff/walldeco/painting/castle{
+	pixel_x = -32
+	},
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors/town/steward)
 "jSm" = (
 /obj/structure/door/viewport,
 /obj/effect/mapping_helpers/access/keyset/town/mercenary,
@@ -22800,7 +22802,6 @@
 /turf/closed/wall/mineral/decostone/cand,
 /area/indoors/town/keep/hand)
 "lNP" = (
-/obj/structure/closet/crate/crafted_closet/crafted,
 /obj/item/paper{
 	pixel_x = -7;
 	pixel_y = 1
@@ -22865,6 +22866,7 @@
 	pixel_x = 5;
 	pixel_y = -3
 	},
+/obj/structure/rack/shelf/biggest,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town/tavern)
 "lOh" = (
@@ -26901,7 +26903,10 @@
 /area/indoors/town/merc_guild)
 "nOc" = (
 /obj/item/fake_machine/mastermail,
-/turf/open/floor/cobblerock,
+/obj/structure/table/wood/reinf_long{
+	dir = 4
+	},
+/turf/open/floor/cobble,
 /area/indoors/town/steward)
 "nOd" = (
 /turf/open/floor/cobble,
@@ -32456,10 +32461,11 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/exposed/church)
 "qHW" = (
-/obj/structure/fluff/celebration/flags{
-	pixel_y = -21
+/obj/structure/fake_machine/atm{
+	pixel_y = 0;
+	pixel_x = -32
 	},
-/turf/open/floor/carpet/lord/center,
+/turf/open/floor/carpet,
 /area/indoors/town/tavern)
 "qIc" = (
 /turf/open/water/marsh/deep,
@@ -32468,6 +32474,25 @@
 /obj/structure/barricade/wooden,
 /turf/open/floor/ruinedwood/spiral,
 /area/under/town/basement)
+"qIn" = (
+/obj/structure/rack/shelf{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/obj/item/reagent_containers/glass/cup/glassware{
+	pixel_x = -25;
+	pixel_y = 12
+	},
+/obj/item/reagent_containers/glass/cup/glassware{
+	pixel_x = -30;
+	pixel_y = 12
+	},
+/obj/item/reagent_containers/glass/bottle/beer{
+	pixel_y = 14;
+	pixel_x = -35
+	},
+/turf/open/floor/wood/nosmooth,
+/area/indoors/town/tavern)
 "qIw" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/town/noble_manor/blue)
@@ -34744,7 +34769,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/floor/cobblerock,
+/turf/open/floor/cobble,
 /area/indoors/town/steward)
 "rTy" = (
 /obj/structure/door/weak/bolt{
@@ -35502,9 +35527,8 @@
 /turf/open/floor/wood,
 /area/outdoors/wilderness)
 "snv" = (
-/obj/effect/decal/carpet/square/black{
-	pixel_y = 25;
-	pixel_x = 1
+/obj/structure/chair/wood/alt/chair_noble{
+	dir = 1
 	},
 /turf/open/floor/cobble,
 /area/indoors/town/steward)
@@ -39960,6 +39984,27 @@
 /turf/open/floor/carpet/green,
 /area/indoors/town/merc_guild)
 "uHC" = (
+/obj/effect/spawner/guaranteed_map_spawner/listed/steward_keys,
+/obj/item/key/custom{
+	pixel_x = 3;
+	pixel_y = 1
+	},
+/obj/item/key/custom{
+	pixel_x = -8;
+	pixel_y = 2;
+	pixel_z = null
+	},
+/obj/item/key/custom{
+	pixel_x = -3;
+	pixel_y = -2
+	},
+/obj/structure/closet/keyrack{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/obj/effect/mapping_helpers/access/keyset/manor/steward,
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/decal/cobbleedge,
 /turf/open/floor/cobble,
 /area/indoors/town/steward)
 "uHL" = (
@@ -43960,19 +44005,6 @@
 /obj/item/storage/belt/pouch{
 	pixel_x = 8;
 	pixel_y = 9
-	},
-/obj/structure/rack/shelf,
-/obj/item/reagent_containers/glass/bottle/beer{
-	pixel_y = 45;
-	pixel_x = -7
-	},
-/obj/item/reagent_containers/glass/cup/glassware{
-	pixel_x = 4;
-	pixel_y = 43
-	},
-/obj/item/reagent_containers/glass/cup/glassware{
-	pixel_x = 9;
-	pixel_y = 43
 	},
 /obj/machinery/light/fueled/wallfire/candle/lamp{
 	pixel_y = 0;
@@ -152177,10 +152209,10 @@ gvR
 gvR
 nXn
 wIQ
-pmA
+qIn
 hst
 iXc
-wTQ
+qHW
 wTQ
 hGi
 wTQ
@@ -152382,9 +152414,9 @@ tsn
 uXv
 hst
 gqY
-xJi
-xJi
-qHW
+jUI
+wTQ
+cDh
 wTQ
 jtT
 xMh
@@ -152584,7 +152616,7 @@ eun
 oHN
 hst
 gqY
-wTQ
+jUI
 wTQ
 cDh
 wTQ
@@ -188342,7 +188374,7 @@ cyq
 pTx
 ebE
 uHC
-iPv
+jRT
 aSw
 pTx
 pTx
