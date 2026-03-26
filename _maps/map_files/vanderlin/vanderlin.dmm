@@ -125,7 +125,7 @@
 	density = 0
 	},
 /obj/structure/carpet/red,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/red)
 "ads" = (
 /obj/structure/carpet,
@@ -148,7 +148,7 @@
 /area/indoors/town/noble_manor/red)
 "adG" = (
 /obj/structure/fluff/clock,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/yellow)
 "adP" = (
 /obj/structure/table/wood/plain_alt,
@@ -166,7 +166,7 @@
 /area/indoors/town)
 "aex" = (
 /obj/machinery/light/fueled/wallfire/candle,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/halls/w)
 "aey" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -735,7 +735,7 @@
 /obj/structure/chair/bench/church/mid{
 	dir = 1
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "arB" = (
 /obj/structure/fluff/statue/gargoyle/moss{
@@ -1031,7 +1031,7 @@
 /area/outdoors/town/roofs)
 "azo" = (
 /obj/effect/decal/cleanable/dirt/dust,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "azs" = (
 /obj/structure/fluff/steamvent,
@@ -1109,7 +1109,7 @@
 /obj/structure/stairs/stone{
 	dir = 8
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/archivist)
 "aAZ" = (
 /turf/open/floor/twig{
@@ -1133,7 +1133,7 @@
 /obj/machinery/light/fueled/wallfire/candle/l,
 /obj/structure/bed/inn/double,
 /obj/item/bedsheet/double_pelt,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/captain)
 "aBI" = (
 /obj/machinery/light/fueled/torchholder{
@@ -1178,7 +1178,7 @@
 /area/indoors/town/church)
 "aDo" = (
 /obj/structure/bookcase/random/thesis,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/library)
 "aDt" = (
 /obj/structure/door/iron/bars{
@@ -1223,7 +1223,7 @@
 /area/outdoors/town)
 "aFm" = (
 /obj/structure/mannequin,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/blue)
 "aFp" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1235,7 +1235,7 @@
 	pixel_y = 18;
 	density = 0
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/red)
 "aFK" = (
 /turf/closed/wall/mineral/tent,
@@ -1401,7 +1401,7 @@
 	pixel_y = -1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/garrison)
 "aJW" = (
 /turf/closed/wall/mineral/wood,
@@ -2013,7 +2013,7 @@
 /obj/item/ammo_holder/quiver/bolts,
 /obj/item/perfume/rose,
 /obj/item/perfume/random,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/captain)
 "aXN" = (
 /obj/structure/table/wood/counter/end{
@@ -2115,7 +2115,7 @@
 /obj/item/clothing/cloak/matron,
 /obj/item/clothing/pants/trou/beltpants,
 /obj/item/clothing/shirt/undershirt/colored/black,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "aZg" = (
 /obj/structure/flora/rock/water{
@@ -2488,7 +2488,7 @@
 /obj/structure/chair/bench/church{
 	dir = 1
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "bkF" = (
 /obj/structure/fluff/statue/scare,
@@ -2965,7 +2965,7 @@
 /area/under/town/basement)
 "bvH" = (
 /obj/structure/stairs,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "bvL" = (
 /turf/closed/wall/mineral/craftstone,
@@ -3304,7 +3304,7 @@
 	icon_state = "barsbent";
 	layer = 2.81
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/smithy)
 "bDu" = (
 /obj/structure/door{
@@ -3379,7 +3379,7 @@
 /obj/structure/stairs/stone{
 	dir = 1
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "bER" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3560,7 +3560,7 @@
 /obj/item/storage/keyring,
 /obj/item/storage/keyring,
 /obj/item/storage/keyring,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/blue)
 "bJk" = (
 /obj/structure/fluff/walldeco/chains,
@@ -3650,7 +3650,7 @@
 /area/indoors/town/keep/magician)
 "bMf" = (
 /obj/structure/table/wood/counter/end,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "bMk" = (
 /obj/structure/fluff/walldeco/church/line{
@@ -3745,7 +3745,7 @@
 	pixel_y = 19
 	},
 /obj/machinery/light/fueled/wallfire/candle,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/garrison)
 "bOQ" = (
 /obj/structure/bookcase/random{
@@ -4155,7 +4155,7 @@
 /obj/effect/decal/cleanable/dirt/cobweb{
 	dir = 1
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/garrison)
 "bWc" = (
 /obj/structure/bed/mediocre,
@@ -4505,7 +4505,7 @@
 	pixel_x = -2;
 	pixel_y = 5
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "cgC" = (
 /obj/structure/door/green,
@@ -4650,7 +4650,7 @@
 /turf/open/floor/church,
 /area/indoors/town/church/chapel)
 "ckL" = (
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/library)
 "ckU" = (
 /obj/structure/fluff/walldeco/vinez,
@@ -5611,7 +5611,7 @@
 /obj/structure/closet/crate/drawer,
 /obj/item/servant_bell,
 /obj/machinery/light/fueled/wallfire/candle/r,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/red)
 "cFM" = (
 /obj/structure/table/wood/large/corner{
@@ -5789,7 +5789,7 @@
 "cIU" = (
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /obj/structure/bookcase/random_recipes,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/library)
 "cIX" = (
 /turf/open/floor/woodturned/nosmooth,
@@ -6389,7 +6389,7 @@
 /area/outdoors/town)
 "cUR" = (
 /obj/structure/carpet/red,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/red)
 "cVk" = (
 /obj/machinery/light/fueled/wallfire/candle{
@@ -6450,7 +6450,7 @@
 	dir = 1;
 	pixel_y = 10
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "cWN" = (
 /obj/structure/closet/crate/crafted_closet,
@@ -6557,7 +6557,7 @@
 	name = "Red Noble Manor"
 	},
 /obj/effect/mapping_helpers/access/keyset/manor/Noble3,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/red)
 "daT" = (
 /obj/machinery/light/fueled/wallfire/big_fireplace{
@@ -7214,7 +7214,7 @@
 "drq" = (
 /obj/structure/bookcase/random,
 /obj/machinery/light/fueled/wallfire/candle/l,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/yellow)
 "drC" = (
 /obj/structure/table/wood/plain_alt,
@@ -7602,7 +7602,7 @@
 /obj/effect/decal/borderfall{
 	dir = 1
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "dAl" = (
 /obj/structure/rack,
@@ -7700,7 +7700,7 @@
 	density = 0;
 	opacity = 0
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/yellow)
 "dCv" = (
 /obj/effect/landmark/tram/queued_path/cargo_pre_enter{
@@ -7873,7 +7873,7 @@
 /area/under/town/basement)
 "dGR" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/red)
 "dGW" = (
 /obj/structure/fluff/railing/border{
@@ -8350,7 +8350,7 @@
 /obj/structure/door{
 	name = "Blue Noble Manor"
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/blue)
 "dRN" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
@@ -8702,7 +8702,7 @@
 	pixel_x = -32;
 	pixel_y = 0
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/halls/w)
 "dZH" = (
 /obj/structure/fluff/railing/border,
@@ -8710,7 +8710,7 @@
 /area/indoors/town/theatre)
 "dZO" = (
 /obj/structure/rack/shelf/biggest,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "eaj" = (
 /obj/structure/stairs{
@@ -9117,7 +9117,7 @@
 /area/outdoors/exposed/church)
 "ekw" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/yellow)
 "elc" = (
 /obj/structure/table/wood/plain_alt,
@@ -9154,7 +9154,7 @@
 /turf/closed/wall/mineral/decorstone,
 /area/indoors/town/keep/halls/w)
 "emv" = (
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/knight)
 "emB" = (
 /obj/structure/flora/grass/bush/wall,
@@ -9324,7 +9324,7 @@
 /obj/item/clothing/cloak/raincloak/colored/blue,
 /obj/item/clothing/shirt/dress/gown/wintergown,
 /obj/item/clothing/pants/tights/colored/black,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/blue)
 "epK" = (
 /obj/structure/fluff/railing/wood{
@@ -9430,7 +9430,7 @@
 /area/indoors/town/merc_guild)
 "esu" = (
 /obj/effect/landmark/events/haunts,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/halls/w)
 "esD" = (
 /turf/open/floor/tile/masonic{
@@ -9513,7 +9513,7 @@
 	},
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/mapping_helpers/access/keyset/manor/Noble2,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/yellow)
 "eux" = (
 /obj/machinery/light/fueled/wallfire/candle{
@@ -9729,7 +9729,7 @@
 "eBd" = (
 /obj/structure/chair/wood/alt/chair_noble,
 /obj/structure/carpet/green,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/yellow)
 "eBC" = (
 /turf/closed/wall/mineral/roofwall/outercorner,
@@ -9849,7 +9849,7 @@
 	pixel_x = 1;
 	pixel_y = 3
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "eFN" = (
 /obj/structure/closet/crate/chest/crate,
@@ -9878,7 +9878,7 @@
 	},
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/mapping_helpers/access/keyset/manor/Noble2,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/yellow)
 "eHx" = (
 /obj/machinery/light/fueled/firebowl/stump,
@@ -10081,7 +10081,7 @@
 	pixel_x = -1;
 	pixel_y = 14
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/red)
 "eKL" = (
 /obj/structure/table/wood/large/corner{
@@ -10552,7 +10552,7 @@
 /obj/effect/decal/borderfall{
 	dir = 4
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/knight)
 "eVd" = (
 /obj/structure/fermentation_keg/water,
@@ -11804,7 +11804,7 @@
 	pixel_x = -6;
 	pixel_y = 8
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "fBC" = (
 /obj/structure/chair/hotspring_bench/right{
@@ -12315,7 +12315,7 @@
 /obj/item/storage/keyring,
 /obj/item/storage/keyring,
 /obj/item/storage/keyring,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/red)
 "fNZ" = (
 /obj/structure/rack/shelf/biggest,
@@ -12626,7 +12626,7 @@
 "fUJ" = (
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /obj/structure/bookcase/random/apocrypha,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/library)
 "fUN" = (
 /obj/structure/fake_machine/scomm{
@@ -12694,7 +12694,7 @@
 /obj/item/mould/ingot{
 	pixel_y = -4
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/smithy)
 "fWs" = (
 /obj/structure/bars,
@@ -12871,7 +12871,7 @@
 /obj/item/ammo_holder/quiver/arrows,
 /obj/item/ammo_holder/quiver/arrows,
 /obj/effect/decal/cleanable/dirt/dust,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/garrison)
 "gaE" = (
 /obj/structure/fake_machine/scomm/r,
@@ -13558,7 +13558,7 @@
 	pixel_x = 0;
 	pixel_y = 7
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/gate)
 "gtL" = (
 /obj/structure/fluff/railing/wood,
@@ -13653,7 +13653,7 @@
 /area/indoors/town)
 "gvy" = (
 /obj/structure/bookcase/random,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/red)
 "gvC" = (
 /obj/structure/table/wood/reinforced_alter,
@@ -13813,7 +13813,7 @@
 /turf/open/floor/cobble,
 /area/under/town/basement)
 "gzE" = (
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/halls/e)
 "gzF" = (
 /obj/structure/fluff/walldeco/church/line{
@@ -13879,7 +13879,7 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/town/noble_manor/blue)
 "gBI" = (
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/gate)
 "gBR" = (
 /obj/structure/window/openclose/reinforced,
@@ -14176,7 +14176,7 @@
 "gKH" = (
 /obj/structure/closet/crate/chest/neu_fancy,
 /obj/item/book/manners,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/yellow)
 "gKO" = (
 /obj/structure/stairs/stone,
@@ -14187,7 +14187,7 @@
 /area/indoors/town/clinic_large/apothecary)
 "gKT" = (
 /obj/machinery/light/fueled/wallfire/candle/blue,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/library)
 "gLh" = (
 /obj/structure/noose/gallows,
@@ -14768,7 +14768,7 @@
 /obj/item/natural/feather{
 	pixel_x = 7
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/library)
 "gZv" = (
 /obj/structure/flora/ausbushes/ppflowers,
@@ -15132,7 +15132,7 @@
 /area/under/town/basement)
 "hku" = (
 /obj/structure/grindwheel,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/garrison)
 "hkv" = (
 /obj/structure/fluff/railing/border{
@@ -15244,7 +15244,7 @@
 "hnB" = (
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /obj/structure/bookcase/random/eoratica,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/library)
 "hnH" = (
 /obj/structure/fluff/walldeco/church/line{
@@ -15535,7 +15535,7 @@
 /area/indoors/town/bath)
 "hvD" = (
 /obj/structure/closet/crate/chest/crate,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "hvI" = (
 /obj/structure/fluff/railing/wood{
@@ -15744,7 +15744,7 @@
 "hzA" = (
 /obj/structure/door/stone,
 /obj/effect/mapping_helpers/access/keyset/church/general,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/church)
 "hzC" = (
 /obj/structure/door/iron/bars{
@@ -16101,7 +16101,7 @@
 /area/indoors/town/keep/feast)
 "hGI" = (
 /obj/structure/chair/bench/couch/alt,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/yellow)
 "hGN" = (
 /turf/open/water/swamp,
@@ -16190,7 +16190,7 @@
 "hJj" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "hJm" = (
 /obj/structure/fluff/walldeco/vinez/l,
@@ -16326,7 +16326,7 @@
 /area/indoors/town/clinic_large/apothecary)
 "hNt" = (
 /obj/structure/mannequin,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/yellow)
 "hNA" = (
 /turf/closed/wall/mineral/stone/window,
@@ -16360,7 +16360,7 @@
 /area/indoors/town/keep/library)
 "hOd" = (
 /obj/structure/bed/shit,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/church)
 "hOr" = (
 /obj/structure/closet/crate/drawer{
@@ -16499,7 +16499,7 @@
 /area/indoors/town/keep/halls/s)
 "hQP" = (
 /obj/structure/bookcase/random/legends,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/library)
 "hQR" = (
 /obj/structure/bars/pipe{
@@ -16667,7 +16667,7 @@
 /obj/item/natural/feather,
 /obj/machinery/light/fueled/wallfire/candle/l,
 /obj/machinery/light/fueled/wallfire/candle,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/captain)
 "hVj" = (
 /obj/structure/flora/grass,
@@ -16694,7 +16694,7 @@
 /obj/machinery/light/fueled/torchholder{
 	dir = 4
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/gate)
 "hVT" = (
 /obj/structure/fluff/walldeco/church/line{
@@ -16873,7 +16873,7 @@
 	pixel_y = -4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/garrison)
 "iaT" = (
 /obj/structure/chair/bench,
@@ -17046,7 +17046,7 @@
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_y = -32
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "ifE" = (
 /obj/structure/closet/crate/crafted_closet,
@@ -17617,7 +17617,7 @@
 /obj/structure/chair/bench/church/r{
 	dir = 1
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "ist" = (
 /obj/effect/mapping_helpers/access/keyset/garrison/lieutenant,
@@ -17741,7 +17741,7 @@
 "iuv" = (
 /obj/structure/bed/shit,
 /obj/machinery/light/fueled/wallfire/candle,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/church)
 "iuw" = (
 /obj/structure/fluff/railing/wood{
@@ -18103,7 +18103,7 @@
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_y = -32
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/halls/w)
 "iDu" = (
 /obj/structure/flora/grass/water,
@@ -18143,7 +18143,7 @@
 	pixel_x = 16;
 	pixel_y = 7
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "iEh" = (
 /obj/structure/bed/mediocre,
@@ -18218,7 +18218,7 @@
 	dir = 10
 	},
 /obj/structure/fluff/railing/border,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/smithy)
 "iFh" = (
 /obj/effect/decal/cleanable/blood,
@@ -18595,7 +18595,7 @@
 /turf/open/floor/cobble,
 /area/under/cave)
 "iMw" = (
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/garrison)
 "iMA" = (
 /obj/structure/flora/grass/water/reeds,
@@ -19267,7 +19267,7 @@
 	pixel_y = 0;
 	pixel_x = -32
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/smithy)
 "jbx" = (
 /obj/structure/table/wood/plain,
@@ -19337,7 +19337,7 @@
 	name = "keep gate door"
 	},
 /obj/effect/mapping_helpers/access/locker,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/keep/gate)
 "jeg" = (
 /obj/structure/fluff/railing/border{
@@ -19994,7 +19994,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 9
 	},
-,
+/turf/open/floor/herringbone,
 /area/indoors/town)
 "jsX" = (
 /obj/structure/window/openclose{
@@ -20025,7 +20025,7 @@
 "jts" = (
 /obj/structure/bed/wool/double,
 /obj/item/bedsheet/double_pelt,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/noble_manor/red)
 "juk" = (
 /obj/structure/fluff/railing/wood{
@@ -20204,7 +20204,7 @@
 /area/under/town/basement)
 "jxr" = (
 /obj/structure/window/solid,
-,
+/turf/open/floor/herringbone,
 /area/indoors/town/smithy)
 "jxA" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -171257,7 +171257,7 @@ qFx
 qFx
 hTX
 lGt
-koK
+hzA
 bBf
 gny
 wje
