@@ -2,9 +2,11 @@
 	name = "Wandering Lich"
 	wave_type = /datum/migrant_wave/lich
 
-	weight = 0
-
-	earliest_start = 9999 MINUTES //Testhastapq
+	weight = 6
+	min_players = HIGHPOP_THRESHOLD
+	earliest_start = 25 MINUTES
+	max_occurrences = 1
+	shared_occurence_type = SHARED_HIGH_THREAT
 
 	tags = list(
 		TAG_ZIZO,
