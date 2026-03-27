@@ -4900,13 +4900,6 @@
 /obj/machinery/light/fueled/wallfire/candle/weak/r,
 /turf/open/floor/tile/diamond/purple,
 /area/indoors/town)
-"cyb" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 1
-	},
-/obj/structure/chair/wood/alt/fancy,
-/turf/open/floor/church,
-/area/indoors/town/church)
 "cyc" = (
 /obj/item/clothing/armor/cuirass,
 /turf/open/floor/cobblerock,
@@ -7883,6 +7876,9 @@
 /turf/open/floor/blocks/newstone,
 /area/indoors/town/church)
 "dYW" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
 /obj/structure/chair/stool,
 /turf/open/floor/church,
 /area/indoors/town/church)
@@ -15402,6 +15398,9 @@
 	dir = 8
 	},
 /obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
 /turf/open/floor/grass/cold,
 /area/indoors/town/keep/halls)
 "hVh" = (
@@ -19340,13 +19339,6 @@
 "jXW" = (
 /turf/closed/wall/mineral/wooddark/vertical,
 /area/indoors/town/dwarfin)
-"jYc" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 1
-	},
-/obj/structure/chair/wood/alt/chair3,
-/turf/open/floor/church,
-/area/indoors/town/church)
 "jYh" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/bed/shit,
@@ -21790,6 +21782,9 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
 /turf/open/floor/hexstone,
 /area/indoors/town/keep/halls/w)
 "lkG" = (
@@ -22187,6 +22182,13 @@
 	},
 /turf/open/floor/tile,
 /area/indoors/town/tavern)
+"lxa" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/chair/wood/alt/chair3,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "lxd" = (
 /obj/structure/chair/wood/alt/chair_noble/purple{
 	dir = 1
@@ -31946,11 +31948,12 @@
 /turf/open/floor/metal,
 /area/indoors/town/garrison)
 "qwH" = (
-/obj/structure/stairs{
+/obj/structure/fluff/walldeco/church/line{
 	dir = 1
 	},
-/turf/open/floor/ruinedwood/turned/darker,
-/area/outdoors/town)
+/obj/structure/chair/wood/alt/chair3,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
 "qwU" = (
 /obj/structure/fluff/railing/wood{
 	dir = 1;
@@ -36781,7 +36784,10 @@
 	pixel_x = -24
 	},
 /obj/structure/fluff/railing/border{
-	pixel_y = 27
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 9
 	},
 /turf/open/floor/cobble/alt,
 /area/indoors/town/keep/halls/w)
@@ -36960,6 +36966,9 @@
 	pixel_x = -24
 	},
 /obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
 /turf/open/floor/cobble/alt,
 /area/indoors/town/keep/halls/w)
 "tir" = (
@@ -37612,12 +37621,9 @@
 /turf/open/floor/tile/diamond/purple,
 /area/indoors/town)
 "tzn" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 1
-	},
-/obj/structure/chair/wood/alt/chair3,
-/turf/open/floor/churchrough,
-/area/indoors/town/church)
+/obj/structure/flora/newtree/snow,
+/turf/open/floor/dirt/road,
+/area/outdoors/basin)
 "tzq" = (
 /obj/structure/fake_machine/scomm/l,
 /turf/open/floor/ruinedwood/darker,
@@ -38619,12 +38625,9 @@
 /turf/open/floor/wood,
 /area/outdoors/mountains)
 "tZM" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/structure/chair/stool,
-/turf/open/floor/church,
-/area/indoors/town/church)
+/obj/effect/landmark/start/courtagent,
+/turf/open/floor/churchbrick,
+/area/indoors/town/keep/guest/meeting)
 "tZT" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -39708,6 +39711,9 @@
 	dir = 4
 	},
 /obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
 /turf/open/floor/grass/cold,
 /area/indoors/town/keep/kitchen)
 "uEO" = (
@@ -40775,6 +40781,13 @@
 /obj/effect/lily_petal,
 /turf/open/floor/cobblerock/alt,
 /area/outdoors/basin)
+"vdq" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/chair/wood/alt/fancy,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "vdN" = (
 /obj/structure/closet/crate/chest/neu_iron,
 /obj/item/clothing/neck/talkstone,
@@ -40861,9 +40874,9 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/noble_manor/red)
 "vgi" = (
-/obj/effect/landmark/start/courtagent,
-/turf/open/floor/churchbrick,
-/area/indoors/town/keep/guest/meeting)
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/woodturned,
+/area/outdoors/town)
 "vgn" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -44809,9 +44822,9 @@
 /turf/open/floor/carpet/lord/right,
 /area/indoors/town/keep/halls/e)
 "xjh" = (
-/obj/structure/flora/newtree/snow,
-/turf/open/floor/dirt/road,
-/area/outdoors/basin)
+/obj/structure/chair/stool,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "xjl" = (
 /obj/structure/fluff/railing/tall{
 	dir = 1
@@ -54744,7 +54757,7 @@ ubc
 ubc
 qZr
 ubc
-xjh
+tzn
 dyw
 edD
 wdh
@@ -55551,7 +55564,7 @@ dyw
 fQw
 ets
 qZr
-xjh
+tzn
 dyw
 dyw
 ntv
@@ -61847,9 +61860,9 @@ mbF
 gqD
 tuN
 gqD
-qwH
-fOY
-jZo
+dkw
+myY
+vgi
 qgI
 qgI
 cgh
@@ -62049,9 +62062,9 @@ mbF
 grK
 gqD
 grK
-qwH
-fOY
-jZo
+dkw
+myY
+vgi
 mbF
 qgI
 qgI
@@ -62251,9 +62264,9 @@ mbF
 gqD
 tuN
 gqD
-qwH
-fOY
-jZo
+dkw
+myY
+vgi
 mbF
 mbF
 mbF
@@ -120407,10 +120420,10 @@ ulP
 ulP
 dcw
 ttH
-tzn
+qwH
 qBN
 pwR
-dYW
+xjh
 kfD
 wND
 tLw
@@ -120609,10 +120622,10 @@ gpq
 ulP
 xqt
 ttH
-cyb
+vdq
 cAq
 jEW
-dYW
+xjh
 aKt
 kfD
 aKt
@@ -120811,10 +120824,10 @@ gpq
 veN
 kfD
 xPM
-jYc
+lxa
 rzZ
 wlQ
-dYW
+xjh
 tUH
 bOr
 bOr
@@ -121015,7 +121028,7 @@ jxM
 ttH
 gdD
 roj
-tZM
+dYW
 rcn
 xtF
 fnv
@@ -152695,7 +152708,7 @@ moi
 uRF
 wgs
 kPA
-vgi
+tZM
 rfI
 hUQ
 uRF
@@ -152896,7 +152909,7 @@ moi
 moi
 uRF
 eIX
-vgi
+tZM
 tnj
 wTk
 cSo
@@ -153098,7 +153111,7 @@ moi
 moi
 uRF
 vEE
-vgi
+tZM
 jBB
 iYS
 bPO
@@ -153300,7 +153313,7 @@ moi
 moi
 uRF
 eIX
-vgi
+tZM
 qRp
 tet
 cSo
