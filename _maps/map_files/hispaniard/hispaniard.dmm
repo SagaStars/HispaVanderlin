@@ -1197,11 +1197,8 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town)
 "aKf" = (
-/obj/structure/roguetent,
-/obj/effect/mapping_helpers/structure/breaker{
-	plane = -3
-	},
-/turf/closed/wall/mineral/tent,
+/obj/structure/roguetent/preopen,
+/turf/open/floor/naturalstone,
 /area/under/mountains/anvil/dungeon)
 "aKh" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -4903,6 +4900,13 @@
 /obj/machinery/light/fueled/wallfire/candle/weak/r,
 /turf/open/floor/tile/diamond/purple,
 /area/indoors/town)
+"cyb" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/chair/wood/alt/fancy,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "cyc" = (
 /obj/item/clothing/armor/cuirass,
 /turf/open/floor/cobblerock,
@@ -7879,10 +7883,7 @@
 /turf/open/floor/blocks/newstone,
 /area/indoors/town/church)
 "dYW" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 1
-	},
-/obj/structure/chair/wood/alt/fancy,
+/obj/structure/chair/stool,
 /turf/open/floor/church,
 /area/indoors/town/church)
 "dZe" = (
@@ -8006,7 +8007,6 @@
 /area/indoors/soilsons)
 "ebE" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
-/obj/effect/mapping_helpers/access/locker,
 /obj/structure/table/wood/reinf_long{
 	dir = 8
 	},
@@ -14348,7 +14348,7 @@
 /area/outdoors/farm)
 "hnM" = (
 /obj/structure/flora/newtree/snow,
-/turf/open/floor/cobblerock,
+/turf/open/floor/dirt/road,
 /area/outdoors/wilderness)
 "hoo" = (
 /obj/structure/winch{
@@ -15391,6 +15391,9 @@
 /obj/machinery/light/fueled/wallfire/candle/l,
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_y = -32
+	},
+/obj/effect/landmark/start/courtagent{
+	dir = 1
 	},
 /turf/open/floor/churchbrick,
 /area/indoors/town/keep/guest/meeting)
@@ -19337,6 +19340,13 @@
 "jXW" = (
 /turf/closed/wall/mineral/wooddark/vertical,
 /area/indoors/town/dwarfin)
+"jYc" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/chair/wood/alt/chair3,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "jYh" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/bed/shit,
@@ -19740,13 +19750,6 @@
 /obj/item/broom,
 /obj/item/reagent_containers/glass/bucket/wooden/alter,
 /turf/open/floor/churchmarble,
-/area/indoors/town/church)
-"kjE" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/structure/chair/stool,
-/turf/open/floor/church,
 /area/indoors/town/church)
 "kjL" = (
 /obj/structure/fermentation_keg,
@@ -22697,7 +22700,6 @@
 "lLS" = (
 /obj/structure/fake_machine/scomm/r,
 /obj/structure/chair/stool,
-/obj/effect/mapping_helpers/access/keyset/manor/guest,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/keep/heir/heir1)
 "lLX" = (
@@ -24219,7 +24221,6 @@
 /area/indoors/town/garrison)
 "mwy" = (
 /obj/machinery/light/fueled/wallfire/candle,
-/obj/effect/landmark/start/courtagent,
 /turf/open/floor/carpet/lord/right{
 	dir = 1
 	},
@@ -37611,9 +37612,12 @@
 /turf/open/floor/tile/diamond/purple,
 /area/indoors/town)
 "tzn" = (
-/obj/structure/roguetent,
-/turf/closed/wall/mineral/tent,
-/area/under/mountains/anvil/dungeon)
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/chair/wood/alt/chair3,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
 "tzq" = (
 /obj/structure/fake_machine/scomm/l,
 /turf/open/floor/ruinedwood/darker,
@@ -38616,9 +38620,9 @@
 /area/outdoors/mountains)
 "tZM" = (
 /obj/structure/fluff/walldeco/church/line{
-	dir = 1
+	dir = 4
 	},
-/obj/structure/chair/wood/alt/chair3,
+/obj/structure/chair/stool,
 /turf/open/floor/church,
 /area/indoors/town/church)
 "tZT" = (
@@ -39475,13 +39479,6 @@
 	},
 /turf/open/floor/twig,
 /area/outdoors/town)
-"uxl" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 1
-	},
-/obj/structure/chair/wood/alt/chair3,
-/turf/open/floor/churchrough,
-/area/indoors/town/church)
 "uxv" = (
 /obj/structure/fluff/walldeco/customflag{
 	name = "White Palace Pass flag"
@@ -40864,9 +40861,9 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/noble_manor/red)
 "vgi" = (
-/obj/structure/chair/stool,
-/turf/open/floor/church,
-/area/indoors/town/church)
+/obj/effect/landmark/start/courtagent,
+/turf/open/floor/churchbrick,
+/area/indoors/town/keep/guest/meeting)
 "vgn" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -41148,7 +41145,7 @@
 /area/indoors/town/shop)
 "vpn" = (
 /obj/structure/bars/cemetery,
-/turf/open/floor/dirt,
+/turf/open/floor/dirt/road,
 /area/outdoors/wilderness)
 "vpy" = (
 /obj/item/reagent_containers/glass/bottle,
@@ -44812,11 +44809,9 @@
 /turf/open/floor/carpet/lord/right,
 /area/indoors/town/keep/halls/e)
 "xjh" = (
-/obj/effect/landmark/start/courtagent,
-/turf/open/floor/carpet/lord/right{
-	dir = 1
-	},
-/area/indoors/town/keep/halls)
+/obj/structure/flora/newtree/snow,
+/turf/open/floor/dirt/road,
+/area/outdoors/basin)
 "xjl" = (
 /obj/structure/fluff/railing/tall{
 	dir = 1
@@ -50109,7 +50104,7 @@ ntv
 edD
 edD
 edD
-edD
+ets
 edD
 moi
 moi
@@ -50307,10 +50302,10 @@ ntv
 ntv
 ntv
 ntv
-dyw
-dyw
+edD
 dyw
 edD
+ets
 edD
 edD
 moi
@@ -50509,9 +50504,9 @@ ntv
 lbO
 dyw
 dyw
-dyw
-iFE
-dyw
+edD
+qKx
+ets
 qZr
 qZr
 joZ
@@ -50711,8 +50706,8 @@ dyw
 dyw
 dyw
 dyw
-dyw
-dyw
+ets
+ets
 qZr
 qZr
 qZr
@@ -50913,7 +50908,7 @@ ntv
 dyw
 dyw
 dyw
-dyw
+ets
 fQw
 fQw
 fQw
@@ -51119,7 +51114,7 @@ qZr
 qZr
 fQw
 fQw
-fQw
+ets
 edD
 moi
 moi
@@ -51516,8 +51511,8 @@ yeo
 ntv
 fxr
 ntv
-ntv
-ntv
+ets
+ets
 ntv
 ubc
 qZr
@@ -51719,8 +51714,8 @@ dyw
 dyw
 dyw
 fQw
-ntv
-ntv
+ets
+ets
 ntv
 ubc
 ubc
@@ -51922,7 +51917,7 @@ dyw
 iFE
 fQw
 fQw
-ntv
+ets
 ntv
 ntv
 dyw
@@ -53132,8 +53127,8 @@ edD
 dyw
 fQw
 oUF
-fQw
-ubc
+ets
+ets
 iFE
 edD
 edD
@@ -53333,9 +53328,9 @@ edD
 qKx
 edD
 fQw
-oUF
+ets
 ubc
-ubc
+ets
 dyw
 dyw
 edD
@@ -53939,8 +53934,8 @@ ntv
 dyw
 dyw
 fQw
-ubc
-ubc
+ets
+ets
 ntv
 ntv
 ntv
@@ -54140,10 +54135,10 @@ ntv
 ntv
 ntv
 ntv
-ntv
+ets
 ubc
 ntv
-ntv
+ets
 dyw
 edD
 edD
@@ -54345,7 +54340,7 @@ ntv
 ntv
 ntv
 ntv
-dyw
+ets
 edD
 edD
 ntv
@@ -54547,7 +54542,7 @@ ntv
 ntv
 ubc
 ubc
-dyw
+ets
 edD
 edD
 ntv
@@ -54749,7 +54744,7 @@ ubc
 ubc
 qZr
 ubc
-iFE
+xjh
 dyw
 edD
 wdh
@@ -55354,7 +55349,7 @@ dyw
 fQw
 qZr
 qZr
-dyw
+ets
 dyw
 dyw
 ntv
@@ -55554,9 +55549,9 @@ ntv
 dyw
 dyw
 fQw
-ubc
+ets
 qZr
-iFE
+xjh
 dyw
 dyw
 ntv
@@ -55758,7 +55753,7 @@ iFE
 fQw
 ubc
 qZr
-dyw
+ets
 dyw
 dyw
 ntv
@@ -55956,7 +55951,7 @@ moi
 ntv
 edD
 edD
-edD
+ets
 ubc
 fQw
 qZr
@@ -56157,11 +56152,11 @@ moi
 moi
 ntv
 ntv
-edD
+ets
 qZr
 fQw
 fQw
-dyw
+ets
 dyw
 edD
 ntv
@@ -56359,7 +56354,7 @@ moi
 moi
 bkq
 ntv
-ntv
+ets
 qZr
 qZr
 qZr
@@ -90513,7 +90508,7 @@ iTW
 iTW
 iTW
 moi
-edD
+ets
 edD
 ntv
 ntv
@@ -90714,8 +90709,8 @@ iTW
 iTW
 iTW
 iTW
-fQw
-fQw
+ets
+edD
 edD
 edD
 edD
@@ -91522,7 +91517,7 @@ iTW
 iTW
 iTW
 iTW
-fQw
+ets
 ntv
 ntv
 fQw
@@ -91726,7 +91721,7 @@ iTW
 iTW
 bkq
 ntv
-ntv
+ets
 ntv
 ubc
 qZr
@@ -91927,7 +91922,7 @@ iTW
 iTW
 iTW
 moi
-ntv
+ets
 dyw
 ntv
 ntv
@@ -97365,7 +97360,7 @@ moi
 moi
 moi
 moi
-pPo
+oAX
 iTW
 iTW
 iTW
@@ -97570,8 +97565,8 @@ dvQ
 pPo
 aVx
 aVx
-pPo
-pPo
+oAX
+oAX
 pzA
 moi
 moi
@@ -97767,15 +97762,15 @@ jlP
 jlP
 jlP
 jlP
-pPo
+oAX
 pPo
 dvQ
 dvQ
 pPo
 hnM
-uMQ
 vpn
-wiw
+vpn
+vpn
 moi
 moi
 moi
@@ -97968,13 +97963,13 @@ pzA
 pzA
 tFW
 jlP
-pPo
+oAX
 dvQ
 dvQ
 pPo
 dvQ
 uzt
-uMQ
+vpn
 sLk
 sLk
 oBF
@@ -98174,8 +98169,8 @@ pPo
 hjv
 hjv
 dvQ
-pzA
-qCZ
+oAX
+vpn
 sLk
 oBF
 wBW
@@ -98375,8 +98370,8 @@ dvQ
 hjv
 dvQ
 dvQ
-hjv
-vmq
+oAX
+vpn
 qCZ
 pzA
 pzA
@@ -106837,7 +106832,7 @@ hcW
 hcW
 afP
 fML
-xjh
+rnH
 aWO
 aPp
 nPa
@@ -107241,7 +107236,7 @@ hcW
 hcW
 afP
 wIH
-xjh
+rnH
 bSD
 wXd
 oPo
@@ -120412,10 +120407,10 @@ ulP
 ulP
 dcw
 ttH
-uxl
+tzn
 qBN
 pwR
-vgi
+dYW
 kfD
 wND
 tLw
@@ -120614,10 +120609,10 @@ gpq
 ulP
 xqt
 ttH
-dYW
+cyb
 cAq
 jEW
-vgi
+dYW
 aKt
 kfD
 aKt
@@ -120816,10 +120811,10 @@ gpq
 veN
 kfD
 xPM
-tZM
+jYc
 rzZ
 wlQ
-vgi
+dYW
 tUH
 bOr
 bOr
@@ -121020,7 +121015,7 @@ jxM
 ttH
 gdD
 roj
-kjE
+tZM
 rcn
 xtF
 fnv
@@ -152700,7 +152695,7 @@ moi
 uRF
 wgs
 kPA
-rfI
+vgi
 rfI
 hUQ
 uRF
@@ -152901,7 +152896,7 @@ moi
 moi
 uRF
 eIX
-rfI
+vgi
 tnj
 wTk
 cSo
@@ -153103,7 +153098,7 @@ moi
 moi
 uRF
 vEE
-rfI
+vgi
 jBB
 iYS
 bPO
@@ -153305,7 +153300,7 @@ moi
 moi
 uRF
 eIX
-rfI
+vgi
 qRp
 tet
 cSo
@@ -157714,7 +157709,7 @@ yld
 tmD
 pPA
 tmD
-tzn
+gtu
 pPA
 yjA
 kld

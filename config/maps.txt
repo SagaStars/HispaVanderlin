@@ -28,6 +28,11 @@ map daftmarsh
 	votable
 endmap
 
+map hispaniard
+	maxplayers 75
+	votable
+endmap
+
 map whitepalacepass
 	maxplayers 0
 	votable
