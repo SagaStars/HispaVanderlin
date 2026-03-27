@@ -68,7 +68,7 @@
 	icon_state = MAP_SWITCH("bounty-open", "bountydir")
 	directional = TRUE
 
-/obj/structure/curtain/bounty/dir/closed
+/obj/structure/curtain/bounty/dir/closed // HISPANIA
 	icon_state = MAP_SWITCH("bounty-closed", "bountydir")
 	opacity = TRUE
 	open = FALSE
