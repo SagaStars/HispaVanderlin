@@ -3885,12 +3885,10 @@
 /turf/open/floor/hexstone,
 /area/indoors/town/keep/feast)
 "bYx" = (
-/obj/structure/chair/wood/alt/chair3{
-	dir = 4
-	},
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8
 	},
+/obj/structure/chair/stool,
 /turf/open/floor/church,
 /area/indoors/town/church)
 "bYA" = (
@@ -7881,9 +7879,12 @@
 /turf/open/floor/blocks/newstone,
 /area/indoors/town/church)
 "dYW" = (
-/turf/closed/wall/mineral/stone,
-/turf/closed/wall/mineral/stone,
-/area/under/cave)
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/chair/wood/alt/fancy,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "dZe" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -14036,12 +14037,6 @@
 /obj/structure/table/wood/counter/end{
 	dir = 1
 	},
-/obj/structure/table/wood/counter{
-	dir = 1
-	},
-/obj/structure/table/wood/counter/end{
-	dir = 1
-	},
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /obj/item/candle/floorcandle1/lit,
@@ -18845,10 +18840,6 @@
 /area/indoors/town/keep/knight)
 "jIg" = (
 /obj/structure/table/wood/counter/end,
-/obj/structure/table/wood/counter{
-	dir = 1
-	},
-/obj/structure/table/wood/counter/end,
 /obj/machinery/light/fueled/wallfire/candle/blue/l,
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /obj/item/candle/floorcandle0/lit,
@@ -19749,6 +19740,13 @@
 /obj/item/broom,
 /obj/item/reagent_containers/glass/bucket/wooden/alter,
 /turf/open/floor/churchmarble,
+/area/indoors/town/church)
+"kjE" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/church,
 /area/indoors/town/church)
 "kjL" = (
 /obj/structure/fermentation_keg,
@@ -32236,24 +32234,7 @@
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/noble_manor/blue)
 "qEl" = (
-/obj/structure/chair/wood/alt/chair3{
-	dir = 4
-	},
-/obj/structure/chair/wood/alt/chair3{
-	dir = 4;
-	pixel_y = 3;
-	pixel_x = 2
-	},
-/obj/structure/chair/wood/alt/chair3{
-	dir = 4;
-	pixel_y = 7;
-	pixel_x = 3
-	},
-/obj/structure/chair/wood/alt/chair3{
-	dir = 4;
-	pixel_y = 13;
-	pixel_x = 7
-	},
+/obj/structure/fermentation_keg/water,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "qEq" = (
@@ -37315,7 +37296,6 @@
 /turf/closed/wall/mineral/roofwall/outercorner,
 /area/under/cave)
 "tsG" = (
-/obj/structure/stairs/stone,
 /obj/structure/stairs/stone{
 	dir = 1
 	},
@@ -38122,9 +38102,6 @@
 /area/indoors/town/merc_guild)
 "tLs" = (
 /obj/structure/stairs/stone{
-	dir = 8
-	},
-/obj/structure/stairs/stone{
 	dir = 4
 	},
 /turf/open/floor/cobblerock,
@@ -38638,9 +38615,12 @@
 /turf/open/floor/wood,
 /area/outdoors/mountains)
 "tZM" = (
-/turf/closed/mineral,
-/turf/closed/wall/mineral/stone,
-/area/under/cave)
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/chair/wood/alt/chair3,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "tZT" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -39495,6 +39475,13 @@
 	},
 /turf/open/floor/twig,
 /area/outdoors/town)
+"uxl" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/chair/wood/alt/chair3,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
 "uxv" = (
 /obj/structure/fluff/walldeco/customflag{
 	name = "White Palace Pass flag"
@@ -40137,9 +40124,6 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/noble_manor/red)
 "uMH" = (
-/obj/structure/table/wood{
-	icon_state = "largetable"
-	},
 /obj/item/cooking/pan,
 /obj/structure/table/wood{
 	dir = 6;
@@ -40880,9 +40864,9 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/noble_manor/red)
 "vgi" = (
-/obj/structure/wallladder,
-/turf/open/openspace,
-/area/outdoors/town/roofs)
+/obj/structure/chair/stool,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "vgn" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -45903,7 +45887,7 @@
 /obj/structure/stairs{
 	dir = 1
 	},
-/turf/open/openspace,
+/turf/open/floor/hexstone,
 /area/indoors/town/garrison)
 "xJQ" = (
 /turf/closed/wall/mineral/wood,
@@ -46117,7 +46101,6 @@
 /turf/open/floor/cobblerock,
 /area/indoors/town/noble_manor/red)
 "xPM" = (
-/obj/structure/fermentation_keg/water,
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
@@ -120429,10 +120412,10 @@ ulP
 ulP
 dcw
 ttH
-iLy
+uxl
 qBN
 pwR
-xgQ
+vgi
 kfD
 wND
 tLw
@@ -120631,10 +120614,10 @@ gpq
 ulP
 xqt
 ttH
-omC
+dYW
 cAq
 jEW
-xgQ
+vgi
 aKt
 kfD
 aKt
@@ -120833,10 +120816,10 @@ gpq
 veN
 kfD
 xPM
-omC
+tZM
 rzZ
 wlQ
-xgQ
+vgi
 tUH
 bOr
 bOr
@@ -121037,7 +121020,7 @@ jxM
 ttH
 gdD
 roj
-roj
+kjE
 rcn
 xtF
 fnv
@@ -136575,12 +136558,12 @@ moi
 moi
 moi
 moi
-tZM
-tZM
-tZM
-tZM
-tZM
-tZM
+poZ
+poZ
+poZ
+poZ
+poZ
+poZ
 poZ
 poZ
 poZ
@@ -136777,7 +136760,6 @@ moi
 moi
 moi
 moi
-tZM
 poZ
 poZ
 poZ
@@ -136786,7 +136768,8 @@ poZ
 poZ
 poZ
 poZ
-tZM
+poZ
+poZ
 moi
 moi
 moi
@@ -136979,7 +136962,6 @@ moi
 moi
 moi
 moi
-tZM
 poZ
 poZ
 poZ
@@ -136988,7 +136970,8 @@ poZ
 poZ
 poZ
 poZ
-tZM
+poZ
+poZ
 moi
 moi
 moi
@@ -137181,7 +137164,6 @@ moi
 moi
 moi
 moi
-tZM
 poZ
 poZ
 poZ
@@ -137190,7 +137172,8 @@ poZ
 poZ
 poZ
 poZ
-dYW
+poZ
+poZ
 moi
 moi
 moi
@@ -137383,7 +137366,7 @@ moi
 moi
 moi
 moi
-tZM
+poZ
 poZ
 poZ
 poZ
@@ -137585,7 +137568,7 @@ moi
 moi
 moi
 moi
-tZM
+poZ
 poZ
 poZ
 poZ
@@ -137787,7 +137770,7 @@ moi
 moi
 moi
 moi
-tZM
+poZ
 poZ
 poZ
 poZ
@@ -137989,7 +137972,7 @@ moi
 moi
 moi
 moi
-tZM
+poZ
 poZ
 poZ
 poZ
@@ -138191,7 +138174,7 @@ eQA
 eQA
 moi
 moi
-tZM
+poZ
 poZ
 poZ
 poZ
@@ -138393,7 +138376,7 @@ eQA
 eQA
 eQA
 moi
-tZM
+poZ
 poZ
 poZ
 poZ
@@ -138595,7 +138578,7 @@ eQA
 eQA
 eQA
 moi
-tZM
+poZ
 poZ
 poZ
 poZ
@@ -138797,7 +138780,7 @@ eQA
 eQA
 eQA
 eQA
-tZM
+poZ
 poZ
 bIt
 bIt
@@ -146072,7 +146055,7 @@ cyq
 cyq
 cyq
 cyq
-vgi
+cyq
 cyq
 cyq
 cyq
