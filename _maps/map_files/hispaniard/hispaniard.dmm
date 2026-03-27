@@ -7876,9 +7876,6 @@
 /turf/open/floor/blocks/newstone,
 /area/indoors/town/church)
 "dYW" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
 /obj/structure/chair/stool,
 /turf/open/floor/church,
 /area/indoors/town/church)
@@ -22182,13 +22179,6 @@
 	},
 /turf/open/floor/tile,
 /area/indoors/town/tavern)
-"lxa" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 1
-	},
-/obj/structure/chair/wood/alt/chair3,
-/turf/open/floor/church,
-/area/indoors/town/church)
 "lxd" = (
 /obj/structure/chair/wood/alt/chair_noble/purple{
 	dir = 1
@@ -25524,6 +25514,13 @@
 "naE" = (
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town/vault)
+"naP" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/chair/wood/alt/chair3,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "naQ" = (
 /mob/living/simple_animal/hostile/retaliate/chicken,
 /turf/open/floor/dirt,
@@ -37621,9 +37618,9 @@
 /turf/open/floor/tile/diamond/purple,
 /area/indoors/town)
 "tzn" = (
-/obj/structure/flora/newtree/snow,
-/turf/open/floor/dirt/road,
-/area/outdoors/basin)
+/obj/effect/landmark/start/courtagent,
+/turf/open/floor/churchbrick,
+/area/indoors/town/keep/guest/meeting)
 "tzq" = (
 /obj/structure/fake_machine/scomm/l,
 /turf/open/floor/ruinedwood/darker,
@@ -38625,9 +38622,12 @@
 /turf/open/floor/wood,
 /area/outdoors/mountains)
 "tZM" = (
-/obj/effect/landmark/start/courtagent,
-/turf/open/floor/churchbrick,
-/area/indoors/town/keep/guest/meeting)
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "tZT" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -39320,6 +39320,13 @@
 "usq" = (
 /turf/open/floor/grass/cold,
 /area/outdoors/town/noble_manor/red)
+"usx" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/chair/wood/alt/fancy,
+/turf/open/floor/church,
+/area/indoors/town/church)
 "usz" = (
 /obj/effect/decal/borderfall{
 	dir = 1
@@ -40271,7 +40278,6 @@
 "uQo" = (
 /obj/effect/mapping_helpers/access/locker,
 /obj/structure/door{
-	lockid = "bargamesroom";
 	name = "Games Room"
 	},
 /obj/effect/mapping_helpers/access/keyset/town/inn{
@@ -40781,13 +40787,6 @@
 /obj/effect/lily_petal,
 /turf/open/floor/cobblerock/alt,
 /area/outdoors/basin)
-"vdq" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 1
-	},
-/obj/structure/chair/wood/alt/fancy,
-/turf/open/floor/church,
-/area/indoors/town/church)
 "vdN" = (
 /obj/structure/closet/crate/chest/neu_iron,
 /obj/item/clothing/neck/talkstone,
@@ -44822,9 +44821,9 @@
 /turf/open/floor/carpet/lord/right,
 /area/indoors/town/keep/halls/e)
 "xjh" = (
-/obj/structure/chair/stool,
-/turf/open/floor/church,
-/area/indoors/town/church)
+/obj/structure/flora/newtree/snow,
+/turf/open/floor/dirt/road,
+/area/outdoors/basin)
 "xjl" = (
 /obj/structure/fluff/railing/tall{
 	dir = 1
@@ -54757,7 +54756,7 @@ ubc
 ubc
 qZr
 ubc
-tzn
+xjh
 dyw
 edD
 wdh
@@ -55564,7 +55563,7 @@ dyw
 fQw
 ets
 qZr
-tzn
+xjh
 dyw
 dyw
 ntv
@@ -120423,7 +120422,7 @@ ttH
 qwH
 qBN
 pwR
-xjh
+dYW
 kfD
 wND
 tLw
@@ -120622,10 +120621,10 @@ gpq
 ulP
 xqt
 ttH
-vdq
+usx
 cAq
 jEW
-xjh
+dYW
 aKt
 kfD
 aKt
@@ -120824,10 +120823,10 @@ gpq
 veN
 kfD
 xPM
-lxa
+naP
 rzZ
 wlQ
-xjh
+dYW
 tUH
 bOr
 bOr
@@ -121028,7 +121027,7 @@ jxM
 ttH
 gdD
 roj
-dYW
+tZM
 rcn
 xtF
 fnv
@@ -152708,7 +152707,7 @@ moi
 uRF
 wgs
 kPA
-tZM
+tzn
 rfI
 hUQ
 uRF
@@ -152909,7 +152908,7 @@ moi
 moi
 uRF
 eIX
-tZM
+tzn
 tnj
 wTk
 cSo
@@ -153111,7 +153110,7 @@ moi
 moi
 uRF
 vEE
-tZM
+tzn
 jBB
 iYS
 bPO
@@ -153313,7 +153312,7 @@ moi
 moi
 uRF
 eIX
-tZM
+tzn
 qRp
 tet
 cSo
