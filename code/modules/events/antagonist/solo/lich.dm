@@ -10,13 +10,13 @@
 	antag_flag = ROLE_LICH
 	shared_occurence_type = SHARED_HIGH_THREAT
 
-	denominator = 65
+	denominator = HIGHPOP_THRESHOLD+10
 
 	base_antags = 0
 	maximum_antags = 0
 
-	min_players = LOWPOP_THRESHOLD
-	weight = 12
+	min_players = LOWPOP_THRESHOLD + 10
+	weight = 10
 
 	earliest_start = 999999 SECONDS //Testhastapq
 
