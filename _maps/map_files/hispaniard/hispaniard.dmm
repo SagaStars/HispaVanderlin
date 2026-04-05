@@ -6494,6 +6494,12 @@
 	},
 /turf/open/floor/grass/cold,
 /area/outdoors/basin/safe)
+"djD" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10
+	},
+/turf/open/floor/cobblerock,
+/area/outdoors/exposed/church)
 "djZ" = (
 /obj/structure/fluff/walldeco/church/line,
 /turf/open/floor/churchmarble,
@@ -19786,7 +19792,7 @@
 /mob/living/carbon/human/species/skeleton/npc/warrior/skilled,
 /mob/living/carbon/human/species/skeleton/npc/warrior/skilled,
 /turf/open/floor/dirt/road,
-/area/under/cave)
+/area/outdoors/exposed/church)
 "kbB" = (
 /obj/structure/bed/shit,
 /turf/open/floor/dirt,
@@ -31175,6 +31181,9 @@
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town)
+"pKD" = (
+/turf/closed/mineral,
+/area/outdoors/exposed/church)
 "pKG" = (
 /obj/structure/table/wood/crafted,
 /obj/item/plate,
@@ -41660,8 +41669,7 @@
 "veM" = (
 /obj/structure/lever/wall{
 	pixel_x = 11;
-	redstone_id = "PriestShutters";
-	dir = 1
+	redstone_id = "PriestShutters"
 	},
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_x = 32;
@@ -47047,6 +47055,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/soilsons)
+"xPw" = (
+/obj/effect/decal/cobbleedge{
+	dir = 6
+	},
+/turf/open/floor/cobblerock,
+/area/outdoors/exposed/church)
 "xPF" = (
 /obj/structure/fluff/railing/wood,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -119011,7 +119025,7 @@ gIp
 gIp
 gVz
 dTT
-wQw
+wCc
 nPu
 ltG
 epb
@@ -119616,10 +119630,10 @@ vTS
 xrF
 vTS
 tKD
-dCj
+sox
+djD
 epb
 epb
-iFb
 epb
 wEQ
 epb
@@ -119818,10 +119832,10 @@ gIp
 cHC
 gIp
 gIp
-sox
-mrf
+dCj
 iFb
-wCc
+iFb
+iFb
 epb
 eZo
 epb
@@ -120020,8 +120034,8 @@ imn
 xrF
 rMp
 umE
-dCj
-iFb
+sox
+xPw
 epb
 epb
 epb
@@ -120627,7 +120641,7 @@ gIp
 xxJ
 gVz
 dTT
-wQw
+wCc
 nPu
 ltG
 iFb
@@ -121249,8 +121263,8 @@ cEA
 epb
 rGk
 tYN
-moi
-moi
+pKD
+pKD
 heE
 epb
 sHr
@@ -121450,9 +121464,9 @@ qAA
 epb
 epb
 rGk
-moi
-moi
-moi
+pKD
+pKD
+pKD
 heE
 epb
 epb
@@ -121652,10 +121666,10 @@ eyl
 sHr
 dhJ
 cEA
-moi
+pKD
 kbj
-moi
-moi
+pKD
+pKD
 dhJ
 epb
 epb
@@ -121854,10 +121868,10 @@ eyl
 epb
 rGk
 rGk
-moi
-moi
-moi
-moi
+pKD
+pKD
+pKD
+pKD
 wqA
 epb
 rGk
@@ -122058,7 +122072,7 @@ svE
 rGk
 rGk
 svE
-moi
+pKD
 uEg
 cEA
 epb
@@ -122256,7 +122270,7 @@ rGk
 eyl
 sHr
 epb
-moi
+pKD
 kjs
 rGk
 rGk
@@ -122457,9 +122471,9 @@ cEA
 rGk
 epb
 vBj
-moi
-moi
-moi
+pKD
+pKD
+pKD
 ibc
 pRF
 eyl
@@ -122659,9 +122673,9 @@ rGk
 dhJ
 xIi
 cEA
-moi
+pKD
 kbj
-moi
+pKD
 uEg
 rGk
 rHU
@@ -122861,9 +122875,9 @@ eyl
 wqA
 epb
 vBj
-moi
-moi
-moi
+pKD
+pKD
+pKD
 mBV
 tYA
 eyl
