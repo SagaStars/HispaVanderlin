@@ -3051,10 +3051,6 @@
 	name = "Drakeleaf Gloves";
 	desc = "Drakeleaf armor, made from the scales of Tsere herself. Wearing such a thing is a tribute to the great achievement this one has made."
 	},
-/obj/item/clothing/head/helmet/heavy/blkknight{
-	name = "Drakeleaf Helm";
-	desc = "Drakeleaf armor, made from the scales of Tsere herself. Wearing such a thing is a tribute to the great achievement this one has made."
-	},
 /obj/item/clothing/armor/plate/blkknight{
 	name = "Drakeleaf Plate";
 	desc = "Drakeleaf armor, made from the scales of Tsere herself. Wearing such a thing is a tribute to the great achievement this one has made."
@@ -12911,9 +12907,9 @@
 "gsv" = (
 /obj/structure/closet/crate/crafted_closet/lord,
 /obj/item/clothing/armor/plate/blkknight,
-/obj/item/clothing/head/helmet/heavy/blkknight,
 /obj/item/weapon/sword/rapier/dec/lord,
 /obj/item/scomstone,
+/obj/item/clothing/head/helmet/visored/blkknight,
 /turf/open/floor/tile,
 /area/indoors/town/keep/lord_appt)
 "gsO" = (
