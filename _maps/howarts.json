@@ -1,0 +1,18 @@
+{
+    "map_name": "Howarts",
+    "map_path": "map_files/howarts",
+    "map_file": "howarts.dmm",
+	"immigrant_origin": "Valoria",
+	"monarch_title": "Master Director",
+	"monarch_title_f": "Master Director",
+	"traits": [
+		{"Up": true, "Turf Weather Effects": true, "Cellar": true, "Leylines":true},
+		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines": true},
+		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines": true},
+		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines":true},
+		{"Down": true, "Turf Weather Effects": true, "Leylines":true}
+	],
+	"minetype": null,
+	"space_empty_levels": 0,
+	"space_ruin_levels": 0
+}

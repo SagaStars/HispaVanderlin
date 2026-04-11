@@ -223,6 +223,8 @@
 	SPEC_ID_HALF_ELF,\
 	SPEC_ID_ELF,\
 	SPEC_ID_DWARF,\
+	SPEC_ID_DROW,\
+	SPEC_ID_HALF_DROW,\
 )
 
 /// The butler

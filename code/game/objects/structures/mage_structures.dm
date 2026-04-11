@@ -4,6 +4,27 @@ GLOBAL_LIST_EMPTY(mana_fountains)
 	name = "Mage's Guild"
 	icon_state = "mageguild"
 
+/obj/structure/fluff/walldeco/housemole
+	name = "House Molfendors"
+	icon_state = "molfendors"
+
+/obj/structure/fluff/walldeco/housecrow
+	name = "House Crowlenbites"
+	icon_state = "crownlebites"
+
+/obj/structure/fluff/walldeco/housedraco
+	name = "House Drayterin"
+	icon_state = "drayterin"
+
+/obj/structure/fluff/walldeco/housemole/small
+	icon_state = "molfendors_mini"
+
+/obj/structure/fluff/walldeco/housecrow/small
+	icon_state = "crownlebites_mini"
+
+/obj/structure/fluff/walldeco/housedraco/small
+	icon_state = "drayterin_mini"
+
 /obj/effect/turf_decal/magedecal
 	icon = 'icons/effects/96x96.dmi'
 	icon_state = "imbuement2"

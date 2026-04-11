@@ -987,7 +987,7 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 				var/cat_name = ""
 				switch(first_job.department_flag)
 					if(NOBLEMEN)
-						cat_name = "Nobles"
+						cat_name = "Howarts Staff"
 					if(GARRISON)
 						cat_name = "Garrison"
 					if(SERFS)
@@ -1006,6 +1006,12 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 						cat_name = "Outsiders"
 					if(INQUISITION)
 						cat_name = "Inquisition"
+					if(MOLFENDORS)
+						cat_name = "House Molfendors"
+					if(CROWLENBITES)
+						cat_name = "House Crowlenbites"
+					if(DRAYTERIN)
+						cat_name = "House Drayterin"
 
 				var/category_html = ""
 				category_html += "<fieldset class='job-category-box' style='border-color: [cat_color];' id='fieldset-[cat_name]' data-collapsed='true'>"

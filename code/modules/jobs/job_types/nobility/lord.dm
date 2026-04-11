@@ -3,53 +3,43 @@ GLOBAL_LIST_EMPTY(lord_titles)
 
 /datum/attribute_holder/sheet/job/lord
 	raw_attribute_list = list(
-		STAT_STRENGTH = 1,
-		STAT_INTELLIGENCE = 3,
-		STAT_ENDURANCE = 3,
-		STAT_SPEED = 1,
-		STAT_PERCEPTION = 2,
-		STAT_FORTUNE = 5,
+		STAT_STRENGTH = -2,
+		STAT_INTELLIGENCE = 8,
+		STAT_CONSTITUTION = -4,
+		STAT_SPEED = -2,
+		/datum/attribute/skill/misc/reading = 60,
+		/datum/attribute/skill/misc/riding = 20,
+		/datum/attribute/skill/magic/arcane = 60,
+		/datum/attribute/skill/combat/wrestling = 20,
+		/datum/attribute/skill/combat/unarmed = 20,
+		/datum/attribute/skill/misc/athletics = 20,
 		/datum/attribute/skill/combat/polearms = 20,
-		/datum/attribute/skill/combat/axesmaces = 20,
-		/datum/attribute/skill/combat/crossbows = 30,
-		/datum/attribute/skill/combat/wrestling = 30,
-		/datum/attribute/skill/combat/unarmed = 10,
-		/datum/attribute/skill/combat/swords = 40,
-		/datum/attribute/skill/combat/knives = 30,
-		/datum/attribute/skill/misc/swimming = 10,
-		/datum/attribute/skill/misc/climbing = 10,
+		/datum/attribute/skill/craft/alchemy = 60,
+		/datum/attribute/skill/labor/mathematics = 60,
 		/datum/attribute/skill/misc/athletics = 30,
-		/datum/attribute/skill/misc/reading = 40,
-		/datum/attribute/skill/misc/riding = 30,
-		/datum/attribute/skill/labor/mathematics = 30
-	)
-
-/datum/attribute_holder/sheet/job/lord/old
-	raw_attribute_list = list(
-		STAT_STRENGTH = 1,
-		STAT_INTELLIGENCE = 3,
-		STAT_ENDURANCE = 3,
-		STAT_SPEED = 1,
-		STAT_PERCEPTION = 2,
-		STAT_FORTUNE = 5,
-		/datum/attribute/skill/combat/polearms = 20,
-		/datum/attribute/skill/combat/axesmaces = 20,
-		/datum/attribute/skill/combat/crossbows = 30,
-		/datum/attribute/skill/combat/wrestling = 30,
-		/datum/attribute/skill/combat/unarmed = 10,
-		/datum/attribute/skill/combat/swords = 50,
-		/datum/attribute/skill/combat/knives = 30,
-		/datum/attribute/skill/misc/swimming = 10,
-		/datum/attribute/skill/misc/climbing = 10,
-		/datum/attribute/skill/misc/athletics = 30,
-		/datum/attribute/skill/misc/reading = 40,
-		/datum/attribute/skill/misc/riding = 30,
-		/datum/attribute/skill/labor/mathematics = 30
+		/datum/attribute/skill/misc/climbing = 30,
+		/datum/attribute/skill/misc/swimming = 20,
+		/datum/attribute/skill/labor/mathematics = 60,
+		/datum/attribute/skill/misc/stealing = 30,
+		/datum/attribute/skill/misc/lockpicking = 30,
+		/datum/attribute/skill/misc/sewing = 30,
+		/datum/attribute/skill/misc/medicine = 60,
+		/datum/attribute/skill/labor/fishing = 30,
+		/datum/attribute/skill/labor/butchering = 30,
+		/datum/attribute/skill/craft/cooking = 30,
+		/datum/attribute/skill/craft/tanning = 30,
+		/datum/attribute/skill/craft/crafting = 30,
+		/datum/attribute/skill/craft/engineering = 30,
+		/datum/attribute/skill/craft/carpentry = 30,
+		/datum/attribute/skill/craft/masonry = 30,
+		/datum/attribute/skill/craft/traps = 30,
+		/datum/attribute/skill/craft/weaponsmithing = 30,
+		/datum/attribute/skill/craft/armorsmithing = 30,
 	)
 
 /datum/job/lord
-	title = "Monarch"
-	var/ruler_title = "Monarch"
+	title = "Master Director"
+	var/ruler_title = "Master Director"
 	tutorial = "Elevated to your throne through a web of intrigue, political maneuvering, and divine sanction, you are the \
 	unquestioned authority of these lands. The Church has bestowed upon you the legitimacy of the gods themselves, and now \
 	you sit at the center of every plot, and every whisper of ambition. Every man, woman, and child may envy your power and \
@@ -70,7 +60,7 @@ GLOBAL_LIST_EMPTY(lord_titles)
 	bypass_lastclass = TRUE
 	give_bank_account = 500
 	selection_color = "#7851A9"
-	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
+	cmode_music = 'sound/music/cmode/nobility/CombatDungeoneer.ogg'
 	can_have_apprentices = FALSE
 	job_bitflag = BITFLAG_ROYALTY
 	exp_type = list(EXP_TYPE_NOBLE, EXP_TYPE_LIVING, EXP_TYPE_LEADERSHIP)
@@ -81,22 +71,32 @@ GLOBAL_LIST_EMPTY(lord_titles)
 		EXP_TYPE_LEADERSHIP = 300
 	)
 
+	spell_points = 30
+	attunements_max = 6
+	attunements_min = 4
+	allowed_ages = list(AGE_OLD)
 	attribute_sheet = /datum/attribute_holder/sheet/job/lord
-	attribute_sheet_old = /datum/attribute_holder/sheet/job/lord/old
 
 	//These change on map load
-	honorary = "Lord"
-	honorary_f = "Lady"
+	honorary = "Master Director"
+	honorary_f = "Master Director"
 
 	mind_traits = list(
 		TRAIT_KNOW_KEEP_DOORS
 	)
 	traits = list(
+		TRAIT_SEEPRICES,
 		TRAIT_NOBLE_BLOOD,
 		TRAIT_NOBLE_POWER,
 		TRAIT_NOSEGRAB,
 		TRAIT_HEAVYARMOR,
 		TRAIT_MEDIUMARMOR,
+	)
+
+	spells = list(
+		/datum/action/cooldown/spell/aoe/knock,
+		/datum/action/cooldown/spell/undirected/jaunt/ethereal_jaunt,
+		/datum/action/cooldown/spell/undirected/touch/prestidigitation,
 	)
 
 	voicepack_m = /datum/voicepack/male/evil
@@ -132,7 +132,12 @@ GLOBAL_LIST_EMPTY(lord_titles)
 	else
 		SSfamilytree.AddRoyal(spawned, FAMILY_MOTHER)
 
-	to_chat(world, "<b>[span_notice(span_big("[spawned.real_name] is [ruler_title] of [SSmapping.config.map_name]."))]</b>")
+	if(istype(spawned.patron, /datum/patron/inhumen/zizo))
+		spawned.grant_language(/datum/language/undead)
+
+	spawned.virginity = TRUE
+
+	to_chat(world, "<b>[span_notice(span_big("Ha llegado [spawned.real_name], Director de Howarts y Gran Maestre Arcano. La mejor Casa sera la cual se gradue en esta semana!"))]</b>")
 	to_chat(world, "<br>")
 
 	if(spawned.dna?.species?.id == SPEC_ID_HUMEN && spawned.gender == MALE)

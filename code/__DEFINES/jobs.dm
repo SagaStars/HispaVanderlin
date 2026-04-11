@@ -73,6 +73,9 @@
 
 #define UNDEAD			(1<<10)
 
+#define MOLFENDORS 	(1<<11)
+#define CROWLENBITES 	(1<<12)
+#define DRAYTERIN 	(1<<13)
 
 #define JCOLOR_NOBLE "#9c40bf"
 #define JCOLOR_MERCHANT "#c2b449"
@@ -80,6 +83,10 @@
 #define JCOLOR_SERF "#669968"
 #define JCOLOR_PEASANT "#936d6c"
 #define JCOLOR_INQUISITION "#FF0000"
+
+#define JCOLOR_MOLFENDORS "#FF0000"
+#define JCOLOR_CROWLENBITES "#D9E9FF"
+#define JCOLOR_DRAYTERIN "#7B00FF"
 
 // job display orders //
 

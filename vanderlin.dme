@@ -9,6 +9,7 @@
 // BEGIN_INCLUDE
 #include "_odlint.dm"
 #include "_maps\_basemap.dm"
+#include "_maps\map_files\howarts.dm"
 #include "_maps\templates\arcyne_fortress.dm"
 #include "_maps\templates\bog_shack_small.dm"
 #include "_maps\templates\malum_anvil_dungeon_large.dm"
@@ -1608,6 +1609,7 @@
 #include "code\game\alternate_appearance\traveltile.dm"
 #include "code\game\area\areas.dm"
 #include "code\game\area\dungeon.dm"
+#include "code\game\area\howarts.dm"
 #include "code\game\area\misc.dm"
 #include "code\game\area\noble_areas.dm"
 #include "code\game\area\roguetownareas.dm"
@@ -2999,6 +3001,7 @@
 #include "code\modules\jobs\job_types\garrison\royal_knight.dm"
 #include "code\modules\jobs\job_types\garrison\town_elder.dm"
 #include "code\modules\jobs\job_types\garrison\watchlieutenant.dm"
+#include "code\modules\jobs\job_types\howarts\directors.dm"
 #include "code\modules\jobs\job_types\inquistion\absolver.dm"
 #include "code\modules\jobs\job_types\inquistion\adept.dm"
 #include "code\modules\jobs\job_types\inquistion\inquisitor.dm"

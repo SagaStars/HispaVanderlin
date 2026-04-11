@@ -88,16 +88,16 @@ SUBSYSTEM_DEF(ticker)
 	var/last_bot_update = 0
 
 	var/list/no_ruler_lines = list(
-		"Set a Ruler to 'high' in your class preferences to start the game!",
-		"PLAY Ruler NOW!", "A Ruler is required to start.",
-		"Pray for a Ruler.", "One day, there will be a Ruler.",
-		"Just try playing Ruler.", "If you don't play Ruler, the game will never start.",
-		"We need at least one Ruler to start the game.",
-		"We're waiting for you to pick Ruler to start.",
-		"Still no Ruler is readied..",
-		"I'm going to lose my mind if we don't get a Ruler readied up.",
-		"No. The game will not start because there is no Ruler.",
-		"What's the point of Vanderlin without a Ruler?"
+		"Set a Director to 'high' in your class preferences to start the game!",
+		"PLAY Director NOW!", "A Director is required to start.",
+		"Pray for a Director.", "One day, there will be a Director.",
+		"Just try playing Director.", "If you don't play Director, the game will never start.",
+		"We need at least one Director to start the game.",
+		"We're waiting for you to pick Director to start.",
+		"Still no Director is readied..",
+		"I'm going to lose my mind if we don't get a Director readied up.",
+		"No. The game will not start because there is no Director.",
+		"What's the point of Vanderlin without a Director?"
 	)
 
 	/// ID of round reboot timer, if it exists
