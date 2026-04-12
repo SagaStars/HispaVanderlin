@@ -4535,10 +4535,6 @@
 	name = "Feast Hall"
 	},
 /obj/effect/mapping_helpers/access/keyset/town/matron,
-/obj/structure/door/iron/bars{
-	name = "Feast Hall"
-	},
-/obj/effect/mapping_helpers/access/keyset/town/matron,
 /turf/open/floor/cobblerock/snow,
 /area/indoors/town/orphanage)
 "cko" = (
