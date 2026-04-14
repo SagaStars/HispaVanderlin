@@ -340,24 +340,21 @@
 
 //to add splatters of blood onto nearby walls. When provided a certain force amount, also increases the range at which blood can appear on the walls.
 //spill_amount also increases the amount of times to try and spill more blood; Particularly to give better feedback to dismembering something.
-/mob/living/proc/add_splatter_wall(mob/M, turf/T, force, spill_amount)
-	var/force_distance = force / 10
+/mob/living/proc/add_splatter_wall(mob/M, turf/T, force = 0, spill_amount = 1)
 	if(force <= 0) //If the force doesn't do enough damage then dont do anything.
 		return
-	if(!iscarbon(src))
-		if(!HAS_TRAIT(src, TRAIT_SIMPLE_WOUNDS))
-			return
-	//if(!get_blood_id()) not implemented yet
-	//	return
+		
+	if(!iscarbon(src) && !HAS_TRAIT(src, TRAIT_SIMPLE_WOUNDS))
+		return
+		
+	var/force_distance = force / 10
 	if(!T)
 		T = get_turf(src)
-	for(var/turf/closed/w in orange(abs(force_distance), T))
-		var/loc = get_step(T, M)
-		new /obj/effect/decal/cleanable/blood/splatter/walls(loc)
-		if(spill_amount > 0)
-			spill_amount--
-			continue
-		else
+		
+	for(var/turf/closed/w in oview(round(force_distance), T))
+		new /obj/effect/decal/cleanable/blood/splatter/walls(w)
+		spill_amount--
+		if(spill_amount >= 0)
 			break
 
 /mob/living/proc/add_drip_floor(turf/T, amt)

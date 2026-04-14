@@ -428,13 +428,14 @@ GLOBAL_VAR_INIT(dryblood_colormatrix, color_hex2color_matrix("#967c69"))
 	auto_turn_destructive()
 	dir = REVERSE_DIR(dir)
 	if(dir == NORTH)
-		src.pixel_y = -32
+		pixel_y = -32
 	if(dir == EAST)
-		src.pixel_x = -32
+		pixel_x = -32
 	if(dir == SOUTH)
-		src.pixel_y = 32
+		pixel_y = 32
 	if(dir == WEST)
-		src.pixel_x = 32
+		pixel_x = 32
+		
 	pixel_x += rand(-5,5)
 	pixel_y += rand(-5,5)
 
