@@ -2,7 +2,7 @@
 	name = "bullet"
 	icon_state = "bullet"
 	damage = 60
-	wallspray_chance = 100
+	splatter_chance = 100
 	pass_flags = PASSTABLE | PASSGRILLE
 	damage_type = BRUTE
 	nodamage = FALSE

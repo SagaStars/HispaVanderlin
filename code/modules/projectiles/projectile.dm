@@ -78,7 +78,7 @@
 	var/ricochets_max = 2
 	var/ricochet_chance = 30
 	var/force_hit = FALSE //If the object being hit can pass ths damage on to something else, it should not do it for this bullet.
-	var/wallspray_chance = 33
+	var/splatter_chance = 33
 
 	//Hitscan
 	var/hitscan = FALSE		//Whether this is hitscan. If it is, speed is basically ignored.
@@ -278,7 +278,7 @@
 			if(starting)
 				splatter_dir = get_dir(starting, target_loca)
 			new /obj/effect/temp_visual/dir_setting/bloodsplatter(target_loca, splatter_dir, L.get_blood_type())
-			if(prob(wallspray_chance))
+			if(prob(splatter_chance))
 				L.add_splatter_floor(target_loca)
 				L.add_splatter_wall(target_loca, force = damage, spill_amount = 2) //Projectiles hurt and spray blood everywhere behind and around of course.
 

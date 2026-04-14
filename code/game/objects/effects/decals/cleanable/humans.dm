@@ -416,14 +416,38 @@ GLOBAL_VAR_INIT(dryblood_colormatrix, color_hex2color_matrix("#967c69"))
 		return 1
 	return 0
 
-//For fancy wall messes...
-/obj/effect/decal/cleanable/blood/splatter/walls
+/obj/effect/decal/cleanable/blood/wallsplatter
+	name = "blood splatter"
 	icon_state = "splatter1"
 	plane = GAME_PLANE
 	layer = BULLET_HOLE_LAYER //For obvious reasons.
 	random_icon_states = list("splatter1", "splatter2", "splatter3", "splatter4", "splatter5", "splatter6")
 
-/obj/effect/decal/cleanable/blood/splatter/walls/Initialize(mapload)
+//Automatically turns based on nearby walls, destroys if not valid.
+/obj/effect/decal/cleanable/blood/wallsplatter/proc/auto_turn_destructive()
+	var/gotdir = FALSE
+	var/list/dir_list = list()
+	for(var/i in 1 to 8)
+		var/turf/closed/T = get_ranged_target_turf(src, i, 1)
+		if(istype(T))
+			//If someone knows a better way to do this, let me know. -Giacom
+			switch(i)
+				if(NORTH)
+					dir_list += NORTH
+				if(SOUTH)
+					dir_list += SOUTH
+				if(WEST)
+					dir_list += WEST
+				if(EAST)
+					dir_list += EAST
+			gotdir = dir
+
+	if(!gotdir || !length(dir_list))
+		qdel(src)
+	else
+		src.dir = pick(dir_list) //Random directions are fun :)
+
+/obj/effect/decal/cleanable/blood/wallsplatter/Initialize(mapload)
 	. = ..()
 	auto_turn_destructive()
 	dir = REVERSE_DIR(dir)
@@ -435,9 +459,9 @@ GLOBAL_VAR_INIT(dryblood_colormatrix, color_hex2color_matrix("#967c69"))
 		pixel_y = 32
 	if(dir == WEST)
 		pixel_x = 32
-		
+
 	pixel_x += rand(-5,5)
 	pixel_y += rand(-5,5)
 
-/obj/effect/decal/cleanable/blood/splatter/walls/replace_decal(obj/effect/decal/cleanable/C)
+/obj/effect/decal/cleanable/blood/wallsplatter/replace_decal(obj/effect/decal/cleanable/C)
 	return //We don't want to replace decals for wall turfs since these are unique. May be changed in the future if it's too much.

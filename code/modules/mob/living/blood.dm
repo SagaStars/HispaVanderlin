@@ -314,9 +314,8 @@
 
 //to add a splatter of blood or other mob liquid.
 /mob/living/proc/add_splatter_floor(turf/T)
-	if(!iscarbon(src))
-		if(!HAS_TRAIT(src, TRAIT_SIMPLE_WOUNDS))
-			return
+	if(!iscarbon(src) && !HAS_TRAIT(src, TRAIT_SIMPLE_WOUNDS))
+		return
 	var/datum/blood_type/blood = get_blood_type()
 	if(isnull(blood))
 		return
@@ -343,16 +342,15 @@
 /mob/living/proc/add_splatter_wall(mob/M, turf/T, force = 0, spill_amount = 1)
 	if(force <= 0) //If the force doesn't do enough damage then dont do anything.
 		return
-		
 	if(!iscarbon(src) && !HAS_TRAIT(src, TRAIT_SIMPLE_WOUNDS))
 		return
-		
 	var/force_distance = force / 10
 	if(!T)
 		T = get_turf(src)
-		
 	for(var/turf/closed/w in oview(round(force_distance), T))
-		new /obj/effect/decal/cleanable/blood/splatter/walls(w)
+		var/loc = get_step(T, M)
+		new /obj/effect/decal/cleanable/blood/wallsplatter(loc)
+
 		spill_amount--
 		if(spill_amount >= 0)
 			break
