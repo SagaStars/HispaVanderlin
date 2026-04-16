@@ -13,11 +13,12 @@
 	earliest_start = 15 MINUTES
 
 /datum/migrant_wave/wretch
-	name = "Wretched Adventurer"
+	name = "An Unpleasant Visit"
 	roles = list(
 		/datum/migrant_role/wretch = 1,
 	)
-	can_roll = FALSE
+	greet_text = "Lowlyfe, outlaws, heretics and scum. Hounded by the consequences of their actions, now threaten the peace of those who still heed the authority that condemned them."
+	weight = 1
 
 /datum/migrant_role/wretch
 	name = ROLE_WRETCH
