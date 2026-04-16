@@ -40860,11 +40860,11 @@
 "umE" = (
 /obj/effect/landmark/bounty_location{
 	completion_range = 5;
-	location_name = d;
-	name = "Infront of the Gate"
+	location_name = "Infront of the Orphanage";
+	name = "Infront of the Orphanage"
 	},
 /turf/open/floor/cobblerock,
-/area/outdoors/basin/safe)
+/area/outdoors/town)
 "umM" = (
 /obj/structure/rousman_hole,
 /turf/open/floor/blocks,
@@ -101434,7 +101434,7 @@ lkh
 ybS
 caB
 cwO
-umE
+lVV
 lVV
 kTd
 cht
@@ -240027,7 +240027,7 @@ cyq
 xzu
 xMh
 xMh
-xMh
+umE
 xMh
 ssp
 gLM
