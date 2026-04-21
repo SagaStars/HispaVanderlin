@@ -476,6 +476,7 @@
 				var/artery_type = /datum/wound/artery
 				if(zone_precise == BODY_ZONE_PRECISE_NECK)
 					artery_type = /datum/wound/artery/neck
+					user.add_splatter_wall(force = 2, splatter_direction = from_behind ? REVERSE_DIR(user.dir) : user.dir) // Oughhhhh!!! Goes to the assailants face!
 				LAZYADD(attempted_wounds, artery_type)
 				if((bclass in GLOB.stab_bclasses) && !resistance)
 					if(zone_precise in earstab_zones)
