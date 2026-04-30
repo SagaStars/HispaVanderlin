@@ -112,20 +112,20 @@
 	for(var/obj/structure/flora/tree/normal_tree in range(5, src))
 		if(normal_tree != src && !istype(normal_tree, /obj/structure/flora/tree/wise))
 			RegisterSignal(normal_tree, COMSIG_ATOM_ATTACKBY, TYPE_PROC_REF(/obj/structure/flora/tree/wise, protect_nearby_trees))
-			RegisterSignal(normal_tree, COMSIG_PARENT_QDELETING, TYPE_PROC_REF(/obj/structure/flora/tree/wise, cleanup_tree))
+			RegisterSignal(normal_tree, COMSIG_QDELETING, TYPE_PROC_REF(/obj/structure/flora/tree/wise, cleanup_tree))
 	for(var/obj/structure/flora/newtree/new_tree in range(5, src))
 		if(!new_tree.burnt)
 			RegisterSignal(new_tree, COMSIG_ATOM_ATTACKBY, TYPE_PROC_REF(/obj/structure/flora/tree/wise, protect_nearby_trees))
-			RegisterSignal(new_tree, COMSIG_PARENT_QDELETING, TYPE_PROC_REF(/obj/structure/flora/tree/wise, cleanup_tree))
+			RegisterSignal(new_tree, COMSIG_QDELETING, TYPE_PROC_REF(/obj/structure/flora/tree/wise, cleanup_tree))
 
 /obj/structure/flora/tree/wise/proc/cleanup_tree(datum/source)
-	UnregisterSignal(source, list(COMSIG_ATOM_ATTACKBY, COMSIG_PARENT_QDELETING))
+	UnregisterSignal(source, list(COMSIG_ATOM_ATTACKBY, COMSIG_QDELETING))
 
 /obj/structure/flora/tree/wise/Destroy()
 	for(var/obj/structure/flora/tree/normal_tree in range(5, src))
-		UnregisterSignal(normal_tree, list(COMSIG_ATOM_ATTACKBY, COMSIG_PARENT_QDELETING))
+		UnregisterSignal(normal_tree, list(COMSIG_ATOM_ATTACKBY, COMSIG_QDELETING))
 	for(var/obj/structure/flora/newtree/new_tree in range(5, src))
-		UnregisterSignal(new_tree, list(COMSIG_ATOM_ATTACKBY, COMSIG_PARENT_QDELETING))
+		UnregisterSignal(new_tree, list(COMSIG_ATOM_ATTACKBY, COMSIG_QDELETING))
 	return ..()
 
 /obj/structure/flora/tree/wise/proc/protect_nearby_trees(datum/source, obj/item/I, mob/user)
@@ -155,7 +155,7 @@
 	var/atom/throw_target = get_edge_target_turf(attacked_tree, get_dir(attacked_tree, target))
 	target.throw_at(throw_target, 4, 2)
 	target.Knockdown(2 SECONDS)
-	target.adjustBruteLoss(8)
+	target.adjustBruteLoss(8, damage_type = BCLASS_LASHING)
 
 /obj/structure/flora/tree/wise/attackby(obj/item/I, mob/user, list/modifiers)
 	. = ..()
@@ -696,7 +696,11 @@
 
 		else
 			if(!HAS_TRAIT(src, TRAIT_PIERCEIMMUNE))
-				user.apply_damage(5, BRUTE)
+				var/obj/item/bodypart/hand = user.get_active_hand()
+				if(hand)
+					hand.bodypart_attacked_by(BCLASS_CUT, 5)
+				else
+					user.apply_damage(5, BRUTE, damage_type = BCLASS_CUT)
 			to_chat(user, span_warning("You cut yourself on the thorns!"))
 
 	prob2findstuff = 15
@@ -713,13 +717,13 @@
 				return
 			else
 				to_chat(L, span_warning("I'm scratched by the thorns."))
-				L.apply_damage(5, BRUTE)
+				L.apply_damage(5, BRUTE, damage_type = BCLASS_CUT, can_crit = FALSE)
 				L.Immobilize(10)
 
 		if(L.m_intent == MOVE_INTENT_RUN || HAS_TRAIT(L, TRAIT_STUMBLE))
 			if(!ishuman(L))
 				to_chat(L, span_warning("I'm cut on a thorn!"))
-				L.apply_damage(5, BRUTE)
+				L.apply_damage(5, BRUTE, damage_type = BCLASS_CUT)
 			else
 				var/mob/living/carbon/human/H = L
 				if(prob(80))
@@ -796,7 +800,7 @@
 		if(L.m_intent == MOVE_INTENT_RUN || HAS_TRAIT(L, TRAIT_STUMBLE))
 			if(!ishuman(L))
 				to_chat(L, span_warning("I'm cut on a thorn!"))
-				L.apply_damage(5, BRUTE)
+				L.apply_damage(5, BRUTE, damage_type = BCLASS_CUT)
 				L.Immobilize(5)
 			else
 				var/mob/living/carbon/human/H = L
