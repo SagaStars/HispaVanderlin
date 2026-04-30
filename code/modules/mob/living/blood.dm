@@ -99,7 +99,7 @@
 
 /// Makes a blood drop, leaking amt units of blood from the mob
 /mob/living/proc/bleed(amt)
-	if(!iscarbon(src) && !HAS_TRAIT(src, TRAIT_SIMPLE_WOUNDS))
+	if(!iscarbon(src))
 		return
 	if(blood_volume <= 0)
 		return
