@@ -243,7 +243,7 @@
 
 //to add a splatter of blood or other mob liquid.
 /mob/living/proc/add_splatter_floor(turf/T)
-	if(!iscarbon(src) && !HAS_TRAIT(src, TRAIT_SIMPLE_WOUNDS))
+	if(!iscarbon(src))
 		return
 	var/datum/blood_type/blood = get_blood_type()
 	if(isnull(blood))
