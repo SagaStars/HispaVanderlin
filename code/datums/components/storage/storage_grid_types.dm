@@ -109,7 +109,7 @@
 
 /datum/component/storage/concrete/grid/sack
 	max_w_class = WEIGHT_CLASS_NORMAL
-	screen_max_rows = 5
+	screen_max_rows = 6
 	screen_max_columns = 4
 	click_gather = TRUE
 	collection_mode = COLLECT_EVERYTHING
@@ -122,7 +122,7 @@
 /datum/component/storage/concrete/grid/handbasket
 	max_w_class = WEIGHT_CLASS_NORMAL
 	screen_max_rows = 3
-	screen_max_columns = 3
+	screen_max_columns = 4
 	click_gather = TRUE
 	collection_mode = COLLECT_EVERYTHING
 	dump_time = 0
