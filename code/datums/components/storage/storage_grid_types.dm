@@ -205,6 +205,18 @@
 		/obj/item/bodypart/head)
 	)
 
+/datum/component/storage/concrete/grid/headhook/wood
+	max_w_class = WEIGHT_CLASS_NORMAL
+	screen_max_rows = 2
+	screen_max_columns = 6
+	click_gather = TRUE
+	collection_mode = COLLECT_EVERYTHING
+	dump_time = 0
+	allow_quick_gather = TRUE
+	allow_quick_empty = TRUE
+	allow_dump_out = TRUE
+	insert_preposition = "in"
+
 /datum/component/storage/concrete/grid/headhook/bronze
 	max_w_class = WEIGHT_CLASS_NORMAL
 	screen_max_rows = 8

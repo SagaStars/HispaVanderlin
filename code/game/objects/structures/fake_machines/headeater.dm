@@ -19,7 +19,7 @@
 	if(I.sellprice <= 0)
 		to_chat(user, span_warning("[I] isn't worth selling."))
 		return
-	else if(I.sellprice > 10)
+	else if(I.sellprice * 1.3 > 10)
 		playsound(src, 'sound/gore/organ2.ogg', 100)
 
 	var/reward = ceil(I.sellprice * 1.3)
