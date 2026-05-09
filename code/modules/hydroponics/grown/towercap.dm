@@ -12,11 +12,18 @@
 	grid_width = 64
 	grid_height = 32
 	var/plank_name = "wooden planks"
+	var/list/sap = list(/datum/reagent/tree_sap = 15)
 	var/static/list/accepted = typecacheof(list(/*/obj/item/reagent_containers/food/snacks/grown/tobacco,
 	/obj/item/reagent_containers/food/snacks/grown/tea,
 	/obj/item/reagent_containers/food/snacks/grown/ambrosia/vulgaris,
 	/obj/item/reagent_containers/food/snacks/grown/ambrosia/deus,
 	/obj/item/reagent_containers/food/snacks/produce/grain/wheat*/))
+
+/obj/item/grown/log/Initialize(newloc, obj/item/neuFarm/seed/new_seed)
+	. = ..()
+	if(sap)
+		create_reagents(20)
+		reagents.add_reagent_list(sap)
 
 /obj/item/grown/log/proc/CheckAccepted(obj/item/I)
 	return is_type_in_typecache(I, accepted)
@@ -42,4 +49,4 @@
 
 /obj/structure/punji_sticks/Initialize(mapload)
 	. = ..()
-	AddComponent(/datum/component/caltrop, 20, 30, 100, CALTROP_BYPASS_SHOES)
+	AddComponent(/datum/component/caltrop, min_damage = 20, max_damage = 30, flags = CALTROP_BYPASS_SHOES)

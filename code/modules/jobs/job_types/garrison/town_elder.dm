@@ -27,6 +27,10 @@
 		EXP_TYPE_LIVING = 1200,
 		EXP_TYPE_BARD = 300
 	)
+	verbs = list(
+		/mob/living/carbon/human/proc/townannouncement
+	)
+	forced_flaw = /datum/quirk/boon/folk_hero
 
 	traits = list(
 		TRAIT_OLDPARTY
@@ -36,10 +40,6 @@
 		/datum/action/cooldown/spell/undirected/list_target/convert_role/militia
 	)
 
-/datum/job/town_elder/after_spawn(mob/living/carbon/human/spawned, client/player_client)
-	. = ..()
-	add_verb(spawned, /mob/living/carbon/human/proc/townannouncement)
-	spawned.add_quirk(/datum/quirk/boon/folk_hero)
 
 /datum/job/town_elder/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
@@ -127,7 +127,7 @@
 	category_tags = list(CTAG_TOWN_ELDER)
 
 	spells = list(
-		/datum/action/cooldown/spell/vicious_mockery,
+		/datum/action/cooldown/spell/projectile/vicious_mockery,
 		// /datum/action/cooldown/spell/bardic_inspiration
 	)
 	honorary = "Mayor"
@@ -143,7 +143,7 @@
 
 /datum/job/advclass/town_elder/mayor/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	spawned.inspiration = new /datum/inspiration(spawned)
+	spawned.grant_inspiration()
 
 /datum/outfit/town_elder/mayor
 	name = "Mayor (Town Elder)"
@@ -545,13 +545,13 @@
 	)
 
 	spells = list(
-		/datum/action/cooldown/spell/vicious_mockery,
+		/datum/action/cooldown/spell/projectile/vicious_mockery,
 		// /datum/action/cooldown/spell/bardic_inspiration
 	)
 
 /datum/job/advclass/town_elder/lorekeeper/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	spawned.inspiration = new /datum/inspiration(spawned)
+	spawned.grant_inspiration()
 
 /datum/outfit/town_elder/lorekeeper
 	name = "Lorekeeper (Town Elder)"
