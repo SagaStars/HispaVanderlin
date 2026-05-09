@@ -10477,7 +10477,6 @@
 "eZV" = (
 /obj/machinery/artificer_table,
 /obj/item/ammo_holder/quiver/bolts,
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
 /turf/open/floor/blocks/paving,
 /area/indoors/town/dwarfin)
 "eZW" = (
@@ -10514,7 +10513,6 @@
 /area/outdoors/basin/safe)
 "fbX" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
 /turf/open/floor/blocks,
 /area/indoors/dungeon)
 "fcb" = (
@@ -11235,8 +11233,6 @@
 /area/indoors/town/merc_guild)
 "fuh" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow/long,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow/long,
 /obj/item/ammo_holder/quiver/arrows,
 /obj/item/ammo_holder/quiver/arrows,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -14137,7 +14133,6 @@
 "gSG" = (
 /obj/structure/closet/crate/crafted_closet,
 /obj/item/weapon/sword/rapier/dec,
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
 /obj/item/ammo_holder/quiver/bolts,
 /obj/item/clothing/armor/leather/jacket/handjacket,
 /obj/item/clothing/cloak/raincloak/colored/purple,
@@ -14455,13 +14450,13 @@
 /area/indoors/villagegarrison)
 "hbk" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/pistol,
-/obj/item/gun/ballistic/revolver/grenadelauncher/pistol{
-	pixel_y = -8
-	},
 /obj/machinery/light/fueled/torchholder{
 	pixel_y = 28
 	},
+/obj/item/gun/ballistic/powder/musket{
+	pixel_x = -8
+	},
+/obj/item/gun/ballistic/powder/musket,
 /turf/open/floor/cobble,
 /area/indoors/lich)
 "hbo" = (
@@ -21973,12 +21968,12 @@
 /area/indoors/town/keep/heir/heir2)
 "kSI" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/pistol/musket{
-	pixel_y = -15;
-	pixel_x = -17
+/obj/item/gun/ballistic/powder/wheellock/puffer{
+	pixel_x = -2
 	},
-/obj/item/gun/ballistic/revolver/grenadelauncher/pistol{
-	pixel_y = -3
+/obj/item/gun/ballistic/powder/wheellock/puffer{
+	pixel_x = 3;
+	pixel_y = -6
 	},
 /turf/open/floor/cobble,
 /area/indoors/lich)
@@ -23015,7 +23010,6 @@
 "luP" = (
 /obj/structure/closet/crate/crafted_closet,
 /obj/item/weapon/sword/rapier/dec,
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
 /obj/item/ammo_holder/quiver/bolts,
 /obj/item/clothing/armor/leather/jacket/handjacket,
 /obj/item/clothing/cloak/raincloak/colored/purple,
@@ -28090,18 +28084,6 @@
 /area/indoors/town/church/chapel)
 "nQZ" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow{
-	pixel_x = -8;
-	pixel_y = 5
-	},
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow{
-	pixel_x = -9;
-	pixel_y = -8
-	},
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow{
-	pixel_x = -9;
-	pixel_y = -1
-	},
 /obj/item/ammo_holder/quiver/arrows{
 	pixel_x = 10;
 	pixel_y = 8
@@ -28963,13 +28945,12 @@
 /area/indoors/town/church)
 "omJ" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/pistol/musket{
-	pixel_y = -15;
-	pixel_x = -17
+/obj/item/gun/ballistic/powder/musket{
+	pixel_x = -19
 	},
-/obj/item/gun/ballistic/revolver/grenadelauncher/pistol/musket{
-	pixel_y = -15;
-	pixel_x = -10
+/obj/item/gun/ballistic/powder/wheellock/puffer{
+	pixel_x = 3;
+	pixel_y = -5
 	},
 /turf/open/floor/cobble,
 /area/indoors/lich)
@@ -35189,7 +35170,6 @@
 /area/outdoors/town)
 "rrP" = (
 /obj/structure/closet/crate/crafted_closet/dark,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow/long,
 /obj/item/ammo_holder/quiver/arrows,
 /obj/item/reagent_containers/glass/bottle/redwine,
 /turf/open/floor/carpet/royalblack,
@@ -38455,7 +38435,6 @@
 /area/indoors/town/church)
 "tcm" = (
 /obj/structure/closet/crate/crafted_closet,
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
 /obj/item/ammo_holder/quiver/bolts,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/keep/gate)
