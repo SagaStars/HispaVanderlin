@@ -729,6 +729,12 @@
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/dwarfin)
+"asL" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 4
+	},
+/turf/open/floor/wood/nosmooth,
+/area/indoors/villagegarrison)
 "asY" = (
 /obj/structure/rack/shelf/biggest,
 /obj/item/flint,
@@ -2213,6 +2219,9 @@
 /area/indoors/town/clinic_large/apothecary)
 "bep" = (
 /obj/structure/fluff/celebration/flags,
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
 /turf/open/floor/ruinedwood/spiral,
 /area/outdoors/town)
 "bes" = (
@@ -6020,6 +6029,8 @@
 /obj/item/clothing/cloak/forrestercloak,
 /obj/item/clothing/armor/leather/advanced/forrester,
 /obj/item/clothing/head/helmet/medium/decorated/skullmet,
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/garrison/forest,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/villagegarrison)
 "cOK" = (
@@ -22113,6 +22124,10 @@
 /obj/structure/chair/bench/couchablack,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/keep/throne)
+"kOc" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/blocks,
+/area/indoors/town/smithy)
 "kOm" = (
 /obj/structure/curtain/bounty/dir,
 /turf/open/floor/twig,
@@ -23711,6 +23726,14 @@
 	pixel_x = 6
 	},
 /obj/structure/closet/crate/chest/neu_iron,
+/obj/item/reagent_containers/food/snacks/butter{
+	pixel_x = 1;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/snacks/butter{
+	pixel_x = 1;
+	pixel_y = 7
+	},
 /turf/open/floor/tile,
 /area/indoors/town/tavern)
 "lGa" = (
@@ -27552,6 +27575,13 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
+/obj/item/reagent_containers/food/snacks/meat/poultry,
+/obj/item/reagent_containers/food/snacks/meat/poultry,
+/obj/item/reagent_containers/food/snacks/meat/steak,
+/obj/item/reagent_containers/food/snacks/meat/steak,
+/obj/item/reagent_containers/food/snacks/meat/steak,
+/obj/item/reagent_containers/food/snacks/fat,
+/obj/item/reagent_containers/food/snacks/fat,
 /turf/open/floor/tile,
 /area/indoors/town/tavern)
 "nvC" = (
@@ -30635,7 +30665,7 @@
 /area/outdoors/town)
 "oWA" = (
 /obj/structure/roguetent/preopen,
-/turf/closed/wall/mineral/tent,
+/turf/open/floor/cobblerock,
 /area/outdoors/town)
 "oWB" = (
 /obj/structure/bars,
@@ -48307,6 +48337,7 @@
 	name = "Balcony"
 	},
 /obj/effect/mapping_helpers/access/keyset/garrison/forest,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/villagegarrison)
 "xEF" = (
@@ -49126,6 +49157,12 @@
 /obj/structure/water_pipe,
 /turf/open/openspace,
 /area/indoors/town/keep/throne)
+"yay" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 8
+	},
+/turf/open/floor/wood/nosmooth,
+/area/indoors/villagegarrison)
 "yaA" = (
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_y = -32
@@ -49406,6 +49443,7 @@
 /obj/structure/stairs{
 	dir = 8
 	},
+/obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town/smithy)
 "yhS" = (
@@ -138226,8 +138264,8 @@ lLf
 exc
 exc
 fwG
-tTG
-tTG
+asL
+asL
 tIx
 oUB
 ufS
@@ -139236,8 +139274,8 @@ tGW
 exc
 exc
 fwG
-tTG
-tTG
+yay
+yay
 tIx
 ipP
 cjk
@@ -151126,7 +151164,7 @@ jIl
 eiC
 eiC
 gqD
-qgX
+gLM
 cyq
 cyq
 cyq
@@ -154189,7 +154227,7 @@ sZN
 ieH
 sZN
 sZN
-pze
+kOc
 pze
 atj
 atj
