@@ -729,12 +729,6 @@
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/dwarfin)
-"asL" = (
-/obj/structure/window/openclose/reinforced{
-	dir = 4
-	},
-/turf/open/floor/wood/nosmooth,
-/area/indoors/villagegarrison)
 "asY" = (
 /obj/structure/rack/shelf/biggest,
 /obj/item/flint,
@@ -11852,6 +11846,12 @@
 /obj/structure/toilet,
 /turf/open/floor/ruinedwood,
 /area/indoors/lich)
+"fHW" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 4
+	},
+/turf/open/floor/wood/nosmooth,
+/area/indoors/villagegarrison)
 "fIl" = (
 /obj/structure/table/wood/counter{
 	dir = 1
@@ -12622,6 +12622,10 @@
 	},
 /turf/open/floor/metal,
 /area/indoors/town/clinic_large/apothecary)
+"gbI" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/blocks,
+/area/indoors/town/smithy)
 "gbV" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
@@ -22124,10 +22128,6 @@
 /obj/structure/chair/bench/couchablack,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/keep/throne)
-"kOc" = (
-/obj/machinery/light/fueled/wallfire/candle,
-/turf/open/floor/blocks,
-/area/indoors/town/smithy)
 "kOm" = (
 /obj/structure/curtain/bounty/dir,
 /turf/open/floor/twig,
@@ -32131,6 +32131,12 @@
 /obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/wood,
 /area/indoors/town/tavern)
+"pIk" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 8
+	},
+/turf/open/floor/wood/nosmooth,
+/area/indoors/villagegarrison)
 "pIC" = (
 /obj/structure/rack/shelf/biggest,
 /obj/machinery/light/fueled/wallfire/candle/l,
@@ -43668,6 +43674,9 @@
 /obj/structure/fluff/railing/wood{
 	dir = 4
 	},
+/obj/structure/bars/passage/shutter/open{
+	redstone_id = "bar_shutter"
+	},
 /turf/open/openspace,
 /area/indoors/town/tavern)
 "vvw" = (
@@ -49157,12 +49166,6 @@
 /obj/structure/water_pipe,
 /turf/open/openspace,
 /area/indoors/town/keep/throne)
-"yay" = (
-/obj/structure/window/openclose/reinforced{
-	dir = 8
-	},
-/turf/open/floor/wood/nosmooth,
-/area/indoors/villagegarrison)
 "yaA" = (
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_y = -32
@@ -138264,8 +138267,8 @@ lLf
 exc
 exc
 fwG
-asL
-asL
+fHW
+fHW
 tIx
 oUB
 ufS
@@ -139274,8 +139277,8 @@ tGW
 exc
 exc
 fwG
-yay
-yay
+pIk
+pIk
 tIx
 ipP
 cjk
@@ -154227,7 +154230,7 @@ sZN
 ieH
 sZN
 sZN
-kOc
+gbI
 pze
 atj
 atj
