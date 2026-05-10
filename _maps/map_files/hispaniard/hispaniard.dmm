@@ -11846,12 +11846,6 @@
 /obj/structure/toilet,
 /turf/open/floor/ruinedwood,
 /area/indoors/lich)
-"fHW" = (
-/obj/structure/window/openclose/reinforced{
-	dir = 4
-	},
-/turf/open/floor/wood/nosmooth,
-/area/indoors/villagegarrison)
 "fIl" = (
 /obj/structure/table/wood/counter{
 	dir = 1
@@ -12622,10 +12616,6 @@
 	},
 /turf/open/floor/metal,
 /area/indoors/town/clinic_large/apothecary)
-"gbI" = (
-/obj/machinery/light/fueled/wallfire/candle,
-/turf/open/floor/blocks,
-/area/indoors/town/smithy)
 "gbV" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
@@ -21056,6 +21046,12 @@
 "kmz" = (
 /turf/open/floor/blocks,
 /area/under/town/basement)
+"kmA" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 4
+	},
+/turf/open/floor/wood/nosmooth,
+/area/indoors/villagegarrison)
 "kmH" = (
 /obj/item/paper{
 	pixel_y = 8
@@ -28919,6 +28915,7 @@
 	dir = 4;
 	lockid = "apartment12"
 	},
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town)
 "ohV" = (
@@ -32131,12 +32128,6 @@
 /obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/wood,
 /area/indoors/town/tavern)
-"pIk" = (
-/obj/structure/window/openclose/reinforced{
-	dir = 8
-	},
-/turf/open/floor/wood/nosmooth,
-/area/indoors/villagegarrison)
 "pIC" = (
 /obj/structure/rack/shelf/biggest,
 /obj/machinery/light/fueled/wallfire/candle/l,
@@ -42850,6 +42841,10 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/grass/cold,
 /area/outdoors/town)
+"uVF" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/blocks,
+/area/indoors/town/smithy)
 "uVS" = (
 /obj/structure/bars/grille,
 /obj/structure/chair/stool,
@@ -46311,6 +46306,12 @@
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/churchmarble/purple,
 /area/indoors/town/church/inquisition)
+"wHp" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 8
+	},
+/turf/open/floor/wood/nosmooth,
+/area/indoors/villagegarrison)
 "wHs" = (
 /obj/item/bin/water,
 /obj/item/natural/cloth,
@@ -138267,8 +138268,8 @@ lLf
 exc
 exc
 fwG
-fHW
-fHW
+kmA
+kmA
 tIx
 oUB
 ufS
@@ -139277,8 +139278,8 @@ tGW
 exc
 exc
 fwG
-pIk
-pIk
+wHp
+wHp
 tIx
 ipP
 cjk
@@ -154230,7 +154231,7 @@ sZN
 ieH
 sZN
 sZN
-gbI
+uVF
 pze
 atj
 atj
