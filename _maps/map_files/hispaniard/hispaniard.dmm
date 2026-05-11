@@ -21823,10 +21823,6 @@
 /obj/structure/closet/crate/chest/neu_iron,
 /turf/open/floor/woodturned,
 /area/indoors/town/keep/kitchen/cellar)
-"kBY" = (
-/turf/closed/wall/mineral/stone,
-/turf/open/floor/cobblerock,
-/area/outdoors/town)
 "kCa" = (
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/cobblerock,
@@ -154513,7 +154509,7 @@ kAe
 eiC
 xMh
 xhG
-kBY
+qDl
 dHh
 meq
 meq
@@ -156937,7 +156933,7 @@ bfR
 kco
 xMh
 xhG
-kBY
+qDl
 qDl
 qDl
 eiC
