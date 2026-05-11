@@ -14,7 +14,8 @@
 				/datum/mapGeneratorModule/hispaniadirt/grass,
 				/datum/mapGeneratorModule/hispaniadirt/road,
 				/datum/mapGeneratorModule/hispaniagrass,
-				/datum/mapGeneratorModule/hispaniagrass/grass)
+				/datum/mapGeneratorModule/hispaniagrass/grass,
+				/datum/mapGeneratorModule/hispaniaoutsideroad)
 
 /datum/mapGeneratorModule/hispaniasnow
 	clusterCheckFlags = CLUSTER_CHECK_DIFFERENT_ATOMS
@@ -34,10 +35,11 @@
 							/obj/item/grown/log/tree/stick = 6,
 							/obj/structure/essence_node = 1,
 							/obj/item/restraints/legcuffs/beartrap/armed/camouflage = 0.1)
-	spawnableTurfs = list(/turf/open/floor/snow = 10,
-							/turf/open/floor/snow/rough = 10,
-							/turf/open/floor/snow/patchy = 10,
-							/turf/open/floor/grass/cold = 5)
+	spawnableTurfs = list()
+//	spawnableTurfs = list(/turf/open/floor/snow = 10,
+//							/turf/open/floor/snow/rough = 10,
+//							/turf/open/floor/snow/patchy = 10,
+//							/turf/open/floor/grass/cold = 5)
 	allowed_areas = list(/area/outdoors/basin,
 							/area/outdoors/basin/safe,
 							/area/outdoors/wilderness)
@@ -75,7 +77,7 @@
 							/obj/item/grown/log/tree/stick = 8,
 							/obj/structure/closet/dirthole/closed/loot=0.75,
 							/obj/item/restraints/legcuffs/beartrap/armed/camouflage=0.5)
-	spawnableTurfs = list(/turf/open/floor/dirt/road=5)
+	spawnableTurfs = list()
 	allowed_areas = list(/area/outdoors/basin,
 							/area/outdoors/basin/safe,
 							/area/outdoors/wilderness)
@@ -101,6 +103,19 @@
 	allowed_areas = list(/area/outdoors/basin,
 							/area/outdoors/basin/safe,
 							/area/outdoors/town,
+							/area/outdoors/wilderness)
+
+
+/datum/mapGeneratorModule/hispaniaoutsideroad
+	clusterCheckFlags = CLUSTER_CHECK_NONE
+	allowed_turfs = list(/turf/open/floor/cobblerock)
+	excluded_turfs = list()
+	spawnableAtoms = list(/obj/structure/flora/grass/tundra = 5,
+							/obj/item/natural/stone = 4,
+							/obj/item/natural/rock = 1,
+							/obj/item/grown/log/tree/stick = 4)
+	allowed_areas = list(/area/outdoors/basin,
+							/area/outdoors/basin/safe,
 							/area/outdoors/wilderness)
 
 /datum/mapGeneratorModule/hispaniagrass
