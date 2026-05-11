@@ -29,7 +29,7 @@ map daftmarsh
 endmap
 
 map hispaniard
-	maxplayers 75
+	maxplayers 0
 	votable
 endmap
 
