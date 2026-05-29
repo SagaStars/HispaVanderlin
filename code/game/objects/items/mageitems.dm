@@ -648,23 +648,27 @@
 	var/shock_damage = 20
 	var/obj/item/book/granter/spellbook/melded_quality = /obj/item/book/granter/spellbook/adept
 
-/obj/item/natural/melded/proc/make_tome(mob/living/carbon/human/user, obj/item/targetbook, isupgrade)
-	var/crafttime = (100 - ((GET_MOB_SKILL_VALUE_OLD(user, /datum/attribute/skill/magic/arcane))*5))
-	if(do_after(user, crafttime, target = src))
-		if (isarcyne(user))
-			playsound(src, 'sound/magic/crystal.ogg', 100, TRUE)
-			user.visible_message(span_warning("[user] imbues [user.p_their()] [src]! It fuses into the [targetbook]. [isupgrade == TRUE ? "Old scribings dissipated in the air as the pages flipped quickly" : ""]"), \
-			span_notice("I join my arcyne energy with that of the [src] in my hands, which shudders briefly before dissolving into motes of energy.[isupgrade == TRUE ? " Old scribings dissipated in the air as the pages flipped quickly..." : ""] Runes and symbols of an unknowable language cover its pages now..."))
-			to_chat(user, span_notice("...yet even for an enigma of the arcyne, these characters are unlike anything I've seen before. They're going to be -much- harder to understand..."))
-			var/obj/item/book/granter/spellbook/melded_quality = new tome_object(get_turf(targetbook))
-			newbook.owner = user
-			qdel(targetbook)
-			qdel(src)
-		else
-			user.visible_message(span_warning("[user] sets down [src] upon the surface of [targetbook] and watches expectantly. Without warning, the [src] lets out a burst of arcyne energy!"), \
-			span_notice("I should have known messing with the arcyne as dangerous!"))
-			user.electrocute_act(shock_damage, src)
-			qdel(src)
+/obj/item/natural/melded/proc/fusion_meld_spellbook(mob/living/carbon/human/user, obj/item/targetbook, isupgrade)
+	if(!do_after(user, max(0, 100 - GET_MOB_SKILL_VALUE_OLD(user, /datum/attribute/skill/magic/arcane) * 5), target = src))
+		return
+
+	if(GET_MOB_SKILL_VALUE(user, /datum/attribute/skill/magic/arcane) > SKILL_LEVEL_NONE)
+		var/obj/item/spellbook_unfinished/pre_arcyne/newbook = new(get_turf(targetbook))
+
+		user.visible_message(
+			span_warning("[user] imbues [user.p_their()] [src]! It fuses into the [newbook]. [isupgrade == TRUE ? "Old scribings dissipated in the air as the pages flipped quickly" : ""]"),
+			span_notice("I join my arcyne energy with that of the [src] in my hands, which shudders briefly before dissolving into motes of energy.[isupgrade == TRUE ? " Old scribings dissipated in the air as the pages flipped quickly..." : ""] Runes and symbols of an unknowable language cover its pages now...")
+		)
+		to_chat(user, span_notice("...yet even for an enigma of the arcyne, these characters are unlike anything I've seen before. They're going to be -much- harder to understand..."))
+		qdel(targetbook)
+		newbook.finish_book(user, src, melded_quality)
+	else
+		user.visible_message(
+			span_warning("[user] sets down [src] upon the surface of [targetbook] and watches expectantly. Without warning, the [src] violently explodes!"),
+			span_notice("I should have known messing with the arcyne was dangerous!")
+		)
+		user.electrocute_act(shock_damage, targetbook)
+		qdel(src)
 
 /obj/item/natural/melded/t1
 	name = "arcanic meld"
