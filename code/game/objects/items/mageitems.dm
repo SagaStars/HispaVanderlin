@@ -644,6 +644,26 @@
 	w_class = WEIGHT_CLASS_SMALL
 	sellprice = 20
 	item_weight = 40 GRAMS
+	var/failure_damage = 20
+	var/obj/item/book/granter/spellbook/tome_object = /obj/item/book/granter/spellbook/adept
+
+/obj/item/natural/melded/proc/make_tome(mob/living/carbon/human/user, obj/item/targetbook, isupgrade)
+	var/crafttime = (100 - ((GET_MOB_SKILL_VALUE_OLD(user, /datum/attribute/skill/magic/arcane))*5))
+	if(do_after(user, crafttime, target = src))
+		if (isarcyne(user))
+			playsound(src, 'sound/magic/crystal.ogg', 100, TRUE)
+			user.visible_message(span_warning("[user] imbues [user.p_their()] [src]! It fuses into the [targetbook]. [isupgrade == TRUE ? "Old scribings dissipated in the air as the pages flipped quickly" : ""]"), \
+			span_notice("I join my arcyne energy with that of the [src] in my hands, which shudders briefly before dissolving into motes of energy.[isupgrade == TRUE ? " Old scribings dissipated in the air as the pages flipped quickly..." : ""] Runes and symbols of an unknowable language cover its pages now..."))
+			to_chat(user, span_notice("...yet even for an enigma of the arcyne, these characters are unlike anything I've seen before. They're going to be -much- harder to understand..."))
+			var/obj/item/book/granter/spellbook/newbook = new tome_object(get_turf(targetbook))
+			newbook.owner = user
+			qdel(targetbook)
+			qdel(src)
+		else
+			user.visible_message(span_warning("[user] sets down [src] upon the surface of [targetbook] and watches expectantly. Without warning, the [src] lets out a burst of arcyne energy!"), \
+			span_notice("I should have known messing with the arcyne as dangerous!"))
+			user.electrocute_act(failure_damage, src)
+			qdel(src)
 
 /obj/item/natural/melded/t1
 	name = "arcanic meld"
@@ -659,6 +679,8 @@
 	item_flags = OBTAINED_DATA
 	obtained_from = list(list("Killing a Sylph", /mob/living/simple_animal/hostile/retaliate/fae/sylph))
 	item_weight = 50 GRAMS
+	failure_damage = 40
+	tome_object = /obj/item/book/granter/spellbook/expert
 
 /obj/item/natural/melded/t3
 	name = "sorcerous weave"
@@ -666,6 +688,8 @@
 	icon_state = "wessence"
 	desc = "A melding of molten core, heartwood core and elemental fragment."
 	item_weight = 60 GRAMS
+	failure_damage = 60
+	tome_object = /obj/item/book/granter/spellbook/master
 
 /obj/item/natural/melded/t4
 	name = "magical confluence"
@@ -673,12 +697,16 @@
 	icon_state = "wessence"
 	desc = "A melding of abyssal flame, sylvan essence and elemental relic."
 	item_weight = 70 GRAMS
+	failure_damage = 80
+	tome_object = /obj/item/book/granter/spellbook/legendary
 
 /obj/item/natural/melded/t5
 	name = "arcanic aberation"
 	icon_state = "wessence"
 	desc = "A melding of arcyne fusion and voidstone. It pulses erratically, power coiled tightly within and dangerous. Many would be afraid of going near this, let alone holding it."
 	item_weight = 80 GRAMS
+	failure_damage = 100
+	tome_object = /obj/item/book/granter/spellbook/legendary
 
 /obj/structure/soul
 	name = "soul"
