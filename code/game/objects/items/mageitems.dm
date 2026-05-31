@@ -653,14 +653,17 @@
 		return
 
 	if(GET_MOB_SKILL_VALUE(user, /datum/attribute/skill/magic/arcane) > SKILL_LEVEL_NONE)
-		var/obj/item/spellbook_unfinished/pre_arcyne/newbook = new(get_turf(targetbook))
+		var/obj/item/spellbook_unfinished/pre_arcyne/newbook
+		newbook = isupgrade ? new(get_turf(targetbook)) : targetbook
 
 		user.visible_message(
 			span_warning("[user] imbues [user.p_their()] [src]! It fuses into the [newbook]. [isupgrade == TRUE ? "Old scribings dissipated in the air as the pages flipped quickly" : ""]"),
 			span_notice("I join my arcyne energy with that of the [src] in my hands, which shudders briefly before dissolving into motes of energy.[isupgrade == TRUE ? " Old scribings dissipated in the air as the pages flipped quickly..." : ""] Runes and symbols of an unknowable language cover its pages now...")
 		)
 		to_chat(user, span_notice("...yet even for an enigma of the arcyne, these characters are unlike anything I've seen before. They're going to be -much- harder to understand..."))
-		qdel(targetbook)
+		if (isupgrade)
+			qdel(targetbook)
+
 		newbook.finish_book(user, src, melded_quality)
 	else
 		user.visible_message(
